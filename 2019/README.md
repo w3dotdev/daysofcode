@@ -1,8 +1,7 @@
-# Days of Code
+# 92 Days of Code - 2019
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![GitHub issues](https://img.shields.io/github/issues/hemersonvianna/daysofcode.svg)](https://github.com/hemersonvianna/daysofcode/issues)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/hemersonvianna/daysofcode.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/hemersonvianna/daysofcode.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/hemersonvianna/daysofcode.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hemersonvianna/daysofcode.svg)
@@ -10,7 +9,7 @@
 
 ## Codes
 
-- [2019](./2019/)
+- [Day 1](./day-1/)
 
 ## Contributing
 
