@@ -9,7 +9,7 @@
 
 ## Codes
 
-- [Day 1](./day-1/)
+- [Day 1 - Smile Pure CSS](./day-1/)
 
 ## Contributing
 
