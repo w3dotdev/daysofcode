@@ -1,0 +1,19 @@
+{
+  "name": "daysofcode",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemersonvianna/daysofcode.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemersonvianna/daysofcode/issues"
+  },
+  "homepage": "https://github.com/hemersonvianna/daysofcode#readme"
+}
