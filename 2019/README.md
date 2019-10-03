@@ -9,8 +9,9 @@
 
 ## Codes
 
-- [Day 1 - Smile Pure CSS](./day-1/)
+- [Day 1 - Smile - Pure CSS](./day-1/)
 - [Day 1 - Movie Card With Hover Effect](./day-2/)
+- [Day 1 - Pacman Loader - CSS Animation](./day-3/)
 
 ## Contributing
 

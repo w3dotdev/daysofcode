@@ -1,0 +1,40 @@
+.loader { height: 100vh; overflow: hidden; position: absolute; width: 100vw; z-index: 1; }
+
+.pacman {
+  display: block;
+  height: 5em;
+  left: 50%;
+  margin: -2.5em;
+  position: absolute;
+  top: 50%;
+  width: 5em;
+  z-index: 3;
+}
+
+.pacman:before,
+.pacman:after {
+  content: "";
+  background-color: #c5ab03;
+  border-radius: 5em 0 0 5em;
+  display: block;
+  height: 5em;
+  position: absolute;
+  transform-origin: 100% 50%;
+  width: 2.5em;
+  will-change: transform;
+}
+
+.pacman:before { animation: _pacmanTop 0.5s ease infinite; transform: rotate(45deg); }
+.pacman:after { animation: _pacmanBottom 0.5s ease infinite; transform: rotate(-45deg); }
+
+@keyframes _pacmanTop {
+  0% { transform: rotate(45deg); }
+  50% { transform: rotate(90deg); }
+  100% { transform: rotate(45deg); }
+}
+
+@keyframes _pacmanBottom {
+  0% { transform: rotate(-45deg); }
+  50% { transform: rotate(-90deg); }
+  100% { transform: rotate(-45deg);}
+}
