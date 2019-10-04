@@ -9,9 +9,10 @@
 
 ## Codes
 
-- [Day 1 - Smile - Pure CSS](./day-1/)
-- [Day 1 - Movie Card With Hover Effect](./day-2/)
-- [Day 1 - Pacman Loader - CSS Animation](./day-3/)
+- [Day 1 - Smile Pure CSS](./day-1/)
+- [Day 2 - Movie Card With Hover Effect](./day-2/)
+- [Day 3 - Pacman Loader - CSS Animation](./day-3/)
+- [Day 4 - Smartphone With Slide Left Transition - CSS Transitions and Transforms](./day-4/)
 
 ## Contributing
 
