@@ -1,0 +1,102 @@
+.compass {
+  background: linear-gradient(135deg, #bcc0c2 0%,#262729 55%,#bcc0c2 100%);
+  border-radius: 150px;
+  height: 300px;
+  margin-left: -150px;
+  margin-top: -150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+}
+
+.compass:before {
+  background: linear-gradient(to right, #8a8a8f 1%,#e6e6e8 52%,#8a8a8f 100%);
+  border-radius:190px;
+  border: 1px solid #000;
+  content: '';
+  display: block;
+  height: 340px;
+  top: -20px;
+  left: -20px;
+  position: relative;
+  width: 340px;
+  z-index: -1;
+}
+
+.compass:after {
+  background: #a7abae;
+  border-radius: 140px;
+  content: '';
+  height: 280px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 280px;
+  z-index: 0;
+}
+
+.compass-capsule {
+  background: #00b0f4;
+  border-radius: 130px;
+  border: 4px double #fff;
+  height: 252px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 252px;
+  z-index: 2;
+}
+
+.compass-capsule:after {
+  background: #2a8bbf;
+  border-radius: 20px;
+  content: '';
+  display: block;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 40px;
+  z-index: 3;
+}
+
+.compass-needle {
+  border-right: 10px solid transparent;
+  border-bottom: 100px solid #fff;
+  border-left: 10px solid transparent;
+  height: 0;
+  margin-left: -8px;
+  margin-top: -100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(-140deg);
+  animation: _comesAndGoes 2s ease infinite alternate;
+  transform-origin: 50% 100%;
+  width:0;
+  z-index:4;
+}
+
+.compass-needle:after {
+  border-right: 10px solid transparent;
+  border-bottom: 100px solid #c00306;
+  border-left: 10px solid transparent;
+  content: '';
+  height: 0;
+  margin-left: -10px;
+  margin-top: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(180deg);
+  width: 0;
+  z-index: 4;
+}
+
+@keyframes _comesAndGoes {
+  from { transform: rotate(160deg); }
+	to { transform: rotate(200deg); }
+}
