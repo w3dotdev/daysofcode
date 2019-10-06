@@ -1,0 +1,52 @@
+.barChart { background: #4d5767; height: 300px; overflow: hidden; width: 300px; }
+
+.graphic { color: #fff; font-size: 80%; height: 100%; position: relative; width: 100%; }
+
+.name {
+  display: block;
+  height: 2.5rem;
+  position: absolute;
+  bottom: -3.8rem;
+  transform: rotatez(-45deg) translatex(-1rem);
+  transform-origin: 30% -90%;
+}
+
+[class^='orientation-'] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 1rem 0 2rem;
+  height: 90%;
+}
+
+[data-orientationY]:before {
+  content: attr(data-orientationY);
+  display: inline-block;
+  width: 2rem;
+  text-align: right;
+  line-height: 0;
+  position: relative;
+  left: -2.5rem;
+  top: -.5rem;
+}
+
+.orientation-y .item { height: 20%; border-top: 1px solid #fff; }
+
+.orientation-x { align-items: flex-end; display: flex; flex-direction: row; height: 72%; margin-bottom: 3.4rem; }
+
+.orientation-x .item { position: relative; width: 25%; }
+
+.orientation-x .item:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  right: 5%;
+  height: 100%;
+}
+
+.orientation-x .item:nth-child(1):before { background: #e64c65; }
+.orientation-x .item:nth-child(2):before { background: #11a8ab; }
+.orientation-x .item:nth-child(3):before { background: #ffcc8a; }
+.orientation-x .item:nth-child(4):before { background: #c3b9ff; }

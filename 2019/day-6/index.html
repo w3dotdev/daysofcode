@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 6</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+      * { margin: 0; padding: 0; list-style: none; }
+      body { background: #eee; font-family: Arial, Helvetica, sans-serif; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-6.css">
+  </head>
+  <body>
+    <div class="barChart">
+      <div class='graphic'>
+        <ul class='orientation-y'>
+          <li class='item' data-orientationY='80'></li>
+          <li class='item' data-orientationY='60'></li>
+          <li class='item' data-orientationY='40'></li>
+          <li class='item' data-orientationY='20'></li>
+          <li class='item' data-orientationY='0'></li>
+        </ul>
+        <ul class='orientation-x'>
+          <!-- 73/80 * 100 = 91.25 -->
+          <li class='item' data-orientationX='73' style="height: 91.25%"><span class="name">Item 1</span></li>
+          <!-- 56/80 * 100 = 70 -->
+          <li class='item' data-orientationX='56' style="height: 70%"><span class="name">Item 2</span></li>
+          <!-- 25/80 * 100 = 31.25 -->
+          <li class='item' data-orientationX='25' style="height: 31.25%"><span class="name">Item 3</span></li>
+          <!-- 18/80 * 100 = 22.5 -->
+          <li class='item' data-orientationX='18' style="height: 22.5%"><span class="name">Item 4</span></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
