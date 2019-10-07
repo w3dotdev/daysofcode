@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 7</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+      * { margin: 0; padding: 0; }
+      body { background: #eee; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 0 auto; max-width: 992px; overflow: hidden; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-7.css">
+  </head>
+  <body>
+    <!-- with float
+      <div class="container">
+        <label class="label" for="argentina">Argentina</label>
+        <input type="radio" id="argentina" name="filter" />
+        <label class="label" for="brazil">Brazil</label>
+        <input type="radio" id="brazil" name="filter"/>
+        <label class="label" for="reset">Reset</label>
+        <input type="radio" id="reset" name="filter"/>
+
+        <div class="item argentina">Catamarca</div>
+        <div class="item brazil">Amapá</div>
+      </div>
+      -->
+    <div class="container">
+      <label class="label" for="argentina">Argentina</label>
+      <label class="label" for="brazil">Brazil</label>
+      <label class="label" for="reset">Reset</label>
+
+      <div class="list">
+        <input type="radio" id="argentina" name="filter" />
+        <input type="radio" id="brazil" name="filter"/>
+        <input type="radio" id="reset" name="filter"/>
+
+        <div class="item argentina">Buenos Aires</div>
+        <div class="item argentina">Catamarca</div>
+        <div class="item brazil">Amapá</div>
+        <div class="item argentina">Chaco</div>
+        <div class="item brazil">São Paulo</div>
+        <div class="item argentina">Chubut</div>
+        <div class="item brazil">Rio de Janeiro</div>
+        <div class="item brazil">Minas Gerais</div>
+        <div class="item argentina">Córdoba</div>
+        <div class="item argentina">Formosa</div>
+        <div class="item brazil">Pernambuco</div>
+      </div>
+    </div>
+  </body>
+</html>

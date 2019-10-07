@@ -1,0 +1,42 @@
+input[type="radio"] { display:none; }
+
+.label {
+  width: 33%;
+  float: left;
+  text-align: center;
+  background: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  color: #222;
+  padding: 10px;
+  margin-left: 0.5%;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.label:first-child { margin-left: 0; }
+
+input[type="radio"][id="argentina"]:checked ~ .brazil,
+input[type="radio"][id="brazil"]:checked ~ .argentina {
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.list { display: flex; flex-direction: row; flex-flow: row wrap; margin: 0 -0.5%; width: 101%; }
+
+.item {
+  align-items: center;
+  color: #333;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin: 0.5%;
+  padding: 10px;
+  transition: all 1s;
+  width: 24%;
+}
+
+.brazil { background: #009c3b; }
+.argentina { background: #74acdf; }
