@@ -16,6 +16,7 @@
 - [Day 5 - Compass with Animation](./day-5/)
 - [Day 6 - Bar Chart With Pure CSS](./day-6/)
 - [Day 7 - Data Filter With Pure CSS](./day-7/)
+- [Day 8 - Circular Menu](./day-8/)
 
 ## Contributing
 

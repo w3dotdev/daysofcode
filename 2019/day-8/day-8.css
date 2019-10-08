@@ -1,0 +1,89 @@
+:root { --position: -120%; --size: 2.8rem; }
+
+.menu { align-items: center; border-radius: 50%; display: flex; height: 12rem; justify-content: center; position: relative; width: 12rem; }
+
+.menu-list {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: calc(var(--size) * 3);
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  transform-origin: center;
+  width: calc(var(--size) * 3);
+}
+
+.menu-item { border-radius: 50%; height: var(--size); position: absolute; transition: all 0.3s; transform: translateY(0px); width: var(--size); }
+
+.menu-link {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.menu-button {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
+  color: #999;
+  cursor: pointer;
+  height: calc(var(--size) + 0.4rem);
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--size) + 0.4rem);
+  z-index: 1;
+}
+
+.item-1 { background-color: #634a02; }
+.item-2 { background-color: #987304; }
+.item-3 { background-color: #bd8f07; }
+.item-4 { background-color: #e4ac07; }
+.item-5 { background-color: #ffc107; }
+.item-6 { background-color: #ffe28c; }
+
+.menu-button + .menu-list .menu-item:hover .menu-link { background-color: rgba(255, 255, 255, 0.2); }
+
+.menu-list:hover .item-1,
+.menu-button:hover + .menu-list .item-1 { transform: rotate(0deg) translateY(var(--position)); }
+
+.menu-list:hover .item-1 .menu-link,
+.menu-button:hover .menu-list + .item-1 .menu-link { transform: rotate(0deg); }
+
+.menu-list:hover .item-2,
+.menu-button:hover + .menu-list .item-2 { transform: rotate(60deg) translateY(var(--position)); }
+
+.menu-list:hover .item-2 .menu-link,
+.menu-button:hover + .menu-list .item-2 .menu-link { transform: rotate(-60deg); }
+
+.menu-list:hover .item-3,
+.menu-button:hover + .menu-list .item-3 { transform: rotate(120deg) translateY(var(--position)); }
+
+.menu-list:hover .item-3 .menu-link,
+.menu-button:hover + .menu-list .item-3 .menu-link { transform: rotate(-120deg); }
+
+.menu-list:hover .item-4,
+.menu-button:hover + .menu-list .item-4 { transform: rotate(180deg) translateY(var(--position)); }
+
+.menu-list:hover .item-4 .menu-link,
+.menu-button:hover + .menu-list .item-4 .menu-link { transform: rotate(-180deg); }
+
+.menu-list:hover .item-5,
+.menu-button:hover + .menu-list .item-5 { transform: rotate(240deg) translateY(var(--position)); }
+
+.menu-list:hover .item-5 .menu-link,
+.menu-button:hover + .menu-list .item-5 .menu-link { transform: rotate(-240deg); }
+
+.menu-list:hover .item-6,
+.menu-button:hover + .menu-list .item-6 { transform: rotate(300deg) translateY(var(--position)); }
+
+.menu-list:hover .item-6 .menu-link,
+.menu-button:hover + .menu-list .item-6 .menu-link { transform: rotate(-300deg); }
