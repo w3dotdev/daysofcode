@@ -1,0 +1,129 @@
+html, body { counter-reset: hit; }
+
+.footer {
+  margin: 0 auto;
+  width: 992px;
+  height: 130px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.footer-scoreboard { font-size: 30px; font-weight: bold; padding: 20px; }
+
+.footer-scoreboard::after { content: counter(hit); }
+
+.game {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 992px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.game-row {
+  width: 1500px;
+  height: 180px;
+  border-bottom: 4px solid #000;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: no-wrap;
+  margin-left: -4000px;
+  width: 5000px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: move 18s linear forwards 1;
+}
+
+.item { height: 150px; margin-top: 50px; margin-right: 100px; width: 122.5px; }
+
+.item-target { -webkit-appearance: none; appearance: none; height: 100%; width: 245px; }
+
+.item-target:focus { -webkit-appearance: none; appearance: none; outline: none; }
+
+.item-image {
+  background: url(target.png);
+  background-size: contain;
+  height: 150px;
+  margin-top: -150px;
+  transition: all .2s;
+  width: 111.5px;
+}
+
+.item-target:checked { counter-increment: hit; }
+
+.item-target:checked:after {
+  animation: hit 2s forwards;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  color: #fff;
+  content: "+1";
+  font-size: 30px;
+  height: 75px;
+  position: relative;
+  top: 80px;
+  left: 122.5px;
+  padding: 10px;
+  width: 75px;
+  z-index: 5;
+}
+
+.item-target:checked ~ .item-image { background: url(dead.png); background-size: contain; }
+
+.item-target:checked ~ .item-image:after {
+  content: "";
+  height: inherit;
+  position: absolute;
+  top: 20;
+  left: 500;
+  width: inherit;
+}
+
+.gameOver {
+  animation: over 3s forwards 13s;
+  background: rgba(0, 0, 20, 0.6);
+  cursor: pointer;
+  height: 1000px;
+  position: absolute;
+  top: -2000px;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+
+.gameOver-content {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  height: 300px;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  width: 600px;
+}
+
+.gameOver-title::after { content: counter(hit); }
+
+@keyframes move {
+  0% { margin-left: -4000px; }
+  100% { margin-left: 2500px; }
+}
+
+@keyframes hit {
+  0% { top: 80px; }
+  100% { top: 10px; display: none; }
+}
+
+@keyframes over {
+  0% { top: -2000px; }
+  100% { top: 0; }
+}
