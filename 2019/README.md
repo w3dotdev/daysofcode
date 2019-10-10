@@ -18,6 +18,7 @@
 - [Day 7 - Data Filter With Pure CSS](./day-7/)
 - [Day 8 - Circular Menu](./day-8/)
 - [Day 9 - Target Game With Pure CSS](./day-9/)
+- [Day 10 - Calendar With CSS Grid](./day-10/)
 
 ## Contributing
 

@@ -1,0 +1,103 @@
+.container {
+  box-shadow: 0 1px 4px #cacaca;
+  border-radius: 4px;
+  background: #fff;
+  margin: 10px auto;
+  max-width: 992px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.header { background: #fafbfd; border-bottom: 1px solid #e0e0e0; padding: 20px 0; text-align: center; }
+
+.header-title { font-size: 20px; }
+
+.header-text { color: #999; font-size: 12px; font-weight: 700; margin-top: 5px; }
+
+.calendar {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, minmax(120px, 1fr));
+  grid-template-rows: 50px;
+  grid-auto-rows: 120px;
+  overflow: auto;
+}
+
+.day {
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  color: #98a0a6;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 14px 20px;
+  position: relative;
+  pointer-events: none;
+  text-align: right;
+  z-index: 1;
+}
+
+.day:nth-of-type(7n + 7) { border-right: 0; }
+.day:nth-of-type(n + 1):nth-of-type(-n + 7) { grid-row: 2; }
+.day:nth-of-type(n + 8):nth-of-type(-n + 14) { grid-row: 3; }
+.day:nth-of-type(n + 15):nth-of-type(-n + 21) { grid-row: 4; }
+.day:nth-of-type(n + 22):nth-of-type(-n + 28) { grid-row: 5; }
+.day:nth-of-type(n + 29):nth-of-type(-n + 35) { grid-row: 6; }
+.day:nth-of-type(7n + 1) { grid-column: 1/1; }
+.day:nth-of-type(7n + 2) { grid-column: 2/2; }
+.day:nth-of-type(7n + 3) { grid-column: 3/3; }
+.day:nth-of-type(7n + 4) { grid-column: 4/4; }
+.day:nth-of-type(7n + 5) { grid-column: 5/5; }
+.day:nth-of-type(7n + 6) { grid-column: 6/6; }
+.day:nth-of-type(7n + 7) { grid-column: 7/7; }
+
+.dayOfTheWeek {
+  border-bottom: 1px solid #e0e0e0;
+  color: #99a1a7;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.day--disabled { background-color: #f1f1f1; color: #ccc; cursor: not-allowed; }
+
+.item {
+  border-left-style: solid;
+  border-left-width: 3px;
+  margin: 10px;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.item--warning {
+  align-self: center;
+  background: #fbfedb;
+  border-left-color: #fffe01;
+  color: #d8be00;
+  grid-column: 4 / span 3;
+  grid-row: 3;
+  margin-top: -5px;
+}
+
+.item--danger {
+  align-self: end;
+  background: #ffd5de;
+  border-left-color: #fa607e;
+  color: #f8254e;
+  grid-column: 2 / span 2;
+  grid-row: 5;
+  margin-top: 15px;
+}
+
+.item--info {
+  align-self: end;
+  background: #e7fdff;
+  border-left-color: #4786ff;
+  color: #0a5eff;
+  grid-column: 2 / span 3;
+  grid-row: 3;
+  margin-top: 15px;
+}
