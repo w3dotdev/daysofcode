@@ -19,6 +19,7 @@
 - [Day 8 - Circular Menu](./day-8/)
 - [Day 9 - Target Game With Pure CSS](./day-9/)
 - [Day 10 - Calendar With CSS Grid](./day-10/)
+- [Day 11 - Carousel Autoplay With Pure CSS](./day-11/)
 
 ## Contributing
 
