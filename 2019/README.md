@@ -20,6 +20,7 @@
 - [Day 9 - Target Game With Pure CSS](./day-9/)
 - [Day 10 - Calendar With CSS Grid](./day-10/)
 - [Day 11 - Carousel Autoplay With Pure CSS](./day-11/)
+- [Day 12 - Slider With Pure CSS](./day-12/)
 
 ## Contributing
 

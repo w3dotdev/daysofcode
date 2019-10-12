@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 12</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+      * { margin: 0; padding: 0; list-style: none; }
+      body { background: #eee; font-family: Arial, Helvetica, sans-serif; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-12.css">
+  </head>
+  <body>
+    <div class="container">
+      <input class="input" type="radio" name="next" id="slide1" checked>
+      <input class="input" type="radio" name="next" id="slide2">
+      <input class="input" type="radio" name="next" id="slide3">
+      <input class="input" type="radio" name="next" id="slide4">
+
+      <div class="slider">
+        <label for="slide4" class="arrow arrow--1 left"></label>
+        <label for="slide2" class="arrow arrow--1 right"></label>
+        <label for="slide1" class="arrow arrow--2 left"></label>
+        <label for="slide3" class="arrow arrow--2 right"></label>
+        <label for="slide2" class="arrow arrow--3 left"></label>
+        <label for="slide4" class="arrow arrow--3 right"></label>
+        <label for="slide3" class="arrow arrow--4 left"></label>
+        <label for="slide1" class="arrow arrow--4 right"></label>
+        <div class="slider-content">
+          <div class="slider-images">
+            <img class="slider-image" src="https://place-hold.it/700x400/999/fff" alt="Item 1">
+            <img class="slider-image" src="https://place-hold.it/700x400/ffcc00/fff" alt="Item 2">
+            <img class="slider-image" src="https://place-hold.it/700x400/ff0000/fff" alt="Item 3">
+            <img class="slider-image" src="https://place-hold.it/700x400/ccc/fff" alt="Item 4">
+          </div>
+          <div class="slider-pagination">
+            <label for="slide1" class="slider-pagination-bullet bullet1"></label>
+            <label for="slide2" class="slider-pagination-bullet bullet2"></label>
+            <label for="slide3" class="slider-pagination-bullet bullet3"></label>
+            <label for="slide4" class="slider-pagination-bullet bullet4"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
