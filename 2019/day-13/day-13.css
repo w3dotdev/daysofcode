@@ -1,0 +1,48 @@
+.container { filter: contrast(130%) brightness(250%); overflow: hidden; position: relative; }
+
+.container::before,
+.container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.container::before { background: linear-gradient(45deg, #1c861a, #870ef5); mix-blend-mode: multiply; }
+
+.container::after {
+  animation: _light 5s infinite linear;
+  background: radial-gradient(circle, #fff, transparent 25%) 0 0/25% 25%, radial-gradient(circle, #fff, #000 25%) 50% 50%/25% 25%;
+  mix-blend-mode: color-dodge;
+  top: -100%;
+  left: -100%;
+}
+
+.text {
+  background: #000;
+  font-size: 10rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.text::before,
+.text::after {
+  content: "Calistenia";
+  color: #fff;
+  filter: blur(0.02em);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.text::after { mix-blend-mode: difference; }
+
+@keyframes _light {
+  100% { transform: translate3d(50%, 50%, 0); }
+}

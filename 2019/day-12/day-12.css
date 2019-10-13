@@ -56,39 +56,28 @@
 }
 
 .right, .left {
-	width: 64px;
+  background: #ccc;
+	background-size: 100%;
+	border-radius: 32px;
+	cursor: pointer;
 	height: 64px;
 	margin-top: 15%;
   display: inline-block;
-	opacity: .9;
-	cursor: pointer;
+	opacity: 0.9;
+	width: 64px;
 }
 
-.left {
-	background: #ccc;
-	background-size: 100%;
-	border-radius: 32px;
-	margin-left: 12%;
-	float: left;
-}
+.left { float: left; margin-left: 12%; }
 
-.right {
-	background: #ccc;
-	background-size: 100%;
-	border-radius: 32px;
-	margin-right: 12%;
-	float: right;
-}
+.right { float: right; margin-right: 12%; }
 
 .right:hover {
-	animation: _right ease .3s;
-	animation: _right ease .5s;
+	animation: _right ease 0.5s;
 	background-color: #ffcc00;
 }
 
 .left:hover {
-	animation: _left ease .5s;
-	animation: _left ease .5s;
+	animation: _left ease 0.5s;
 	background-color: #ffcc00;
 }
 
@@ -110,17 +99,17 @@
 #slide4:checked ~ .slider .slider-content .slider-pagination .bullet4:before { display: inline-block; }
 
 @keyframes _right {
-	0%{background-position: 0px 0px;}
-	49.9%{background-position: 64px 0px;}
-	50%{display: none; background-position: -64px;}
-	50.1%{background-position: -64px;}
-	100%{background-position: 0px 0px;}
+	0% { background-position: 0px 0px; }
+	49.9% { background-position: 64px 0px; }
+	50% { display: none; background-position: -64px; }
+	50.1% { background-position: -64px; }
+	100% { background-position: 0px 0px; }
 }
 
 @keyframes _left {
-	0%{background-position: 0px 0px;}
-	49.9%{background-position: -64px 0px;}
-	50%{display: none; background-position: 64px;}
-	50.1%{background-position: 64px;}
-	100%{background-position: 0px 0px;}
+	0% { background-position: 0px 0px; }
+	49.9% { background-position: -64px 0px; }
+	50% { display: none; background-position: 64px; }
+	50.1% { background-position: 64px; }
+	100% { background-position: 0px 0px; }
 }

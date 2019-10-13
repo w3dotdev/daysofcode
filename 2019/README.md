@@ -11,7 +11,7 @@
 
 - [Day 1 - Smile With Pure CSS](./day-1/)
 - [Day 2 - Movie Card With Hover Effect](./day-2/)
-- [Day 3 - Pacman Loader - CSS Animation](./day-3/)
+- [Day 3 - Pacman Loader With CSS Animation](./day-3/)
 - [Day 4 - Smartphone With Slide Left Transition - CSS Transitions and Transforms](./day-4/)
 - [Day 5 - Compass with Animation](./day-5/)
 - [Day 6 - Bar Chart With Pure CSS](./day-6/)
@@ -21,6 +21,7 @@
 - [Day 10 - Calendar With CSS Grid](./day-10/)
 - [Day 11 - Carousel Autoplay With Pure CSS](./day-11/)
 - [Day 12 - Slider With Pure CSS](./day-12/)
+- [Day 13 - Neon Text With CSS Animation](./day-13/)
 
 ## Contributing
 
