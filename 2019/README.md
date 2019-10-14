@@ -11,20 +11,23 @@
 
 ### HTML & CSS
 
-- [Day 1 - Smile](./day-1/)
-- [Day 2 - Movie Card With Hover Effect](./day-2/)
-- [Day 3 - Pacman Loader](./day-3/)
-- [Day 4 - Smartphone With Slide Left Transition](./day-4/)
-- [Day 5 - Compass](./day-5/)
-- [Day 6 - Bar Chart](./day-6/)
-- [Day 7 - Data Filter](./day-7/)
-- [Day 8 - Circular Menu](./day-8/)
-- [Day 9 - Target Game](./day-9/)
-- [Day 10 - Calendar - CSS Grid](./day-10/)
-- [Day 11 - Carousel Autoplay](./day-11/)
-- [Day 12 - Slider](./day-12/)
-- [Day 13 - Neon Text Effect](./day-13/)
-- [Day 14 - ](./day-14/)
+|| Preview ||
+|:-------------- |:--------------:| :--------------|
+|Day 1 | ![](?v=4&s=100) | [Smile](./day-1/) |
+|Day 2 | ![](?v=4&s=100) | [Movie Card With Hover Effect](./day-2/) |
+|Day 3 | ![](?v=4&s=100) | [Pacman Loader](./day-3/)
+|Day 4 | ![](?v=4&s=100) | [Smartphone With Slide Left Transition](./day-4/)
+|Day 5 | ![](?v=4&s=100) | [Compass](./day-5/)
+|Day 6 | ![](?v=4&s=100) | [Bar Chart](./day-6/)
+|Day 7 | ![](?v=4&s=100) | [Data Filter](./day-7/)
+|Day 8 | ![](?v=4&s=100) | [Circular Menu](./day-8/)
+|Day 9 | ![](?v=4&s=100) | [Target Game](./day-9/)
+|Day 10 | ![](?v=4&s=100) | [Calendar - CSS Grid](./day-10/)
+|Day 11 | ![](?v=4&s=100) | [Carousel Autoplay](./day-11/)
+|Day 12 | ![](?v=4&s=100) | [Slider](./day-12/)
+|Day 13 | ![](?v=4&s=100) | [Neon Text Effect](./day-13/)
+|Day 14 | ![](?v=4&s=100) | [Responsive Table](./day-14/)
+
 - [Day 15 - ](./day-15/)
 - [Day 16 - ](./day-16/)
 - [Day 17 - ](./day-17/)
