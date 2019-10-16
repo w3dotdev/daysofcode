@@ -28,8 +28,8 @@
 |Day 13 | ![](?v=4&s=100) | [Neon Text Effect](./day-13/)
 |Day 14 | ![](?v=4&s=100) | [Responsive Table](./day-14/)
 |Day 15 | ![](?v=4&s=100) | [Button Ripple Effect](./day-15/)
+|Day 16 | ![](?v=4&s=100) | [Slide Tab Bar](./day-16/)
 
-- [Day 16 - ](./day-16/)
 - [Day 17 - ](./day-17/)
 - [Day 18 - ](./day-18/)
 - [Day 19 - ](./day-19/)

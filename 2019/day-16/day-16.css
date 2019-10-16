@@ -1,0 +1,41 @@
+.slideTabBar { display: flex; flex-direction: row; flex-flow: row wrap; width: 100%; }
+
+.item-label {
+  display: block;
+  color: #a323ff;
+  opacity: 0.2;
+  padding: 10px;
+  text-align: center;
+  width: 33.3%;
+}
+
+.item-input { display: none; }
+
+.item-label:before { content: "★"; display: block; }
+
+.item-label:hover { color: #a323ff; cursor: pointer; }
+
+.bottom {
+  background: #edd3ff;
+  border-radius: 5px;
+  display: block;
+  height: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.bar {
+  background: #a323ff;
+  border-radius: 5px;
+  height: 5px;
+  width: 33.3%;
+}
+
+.item-label,
+.bar { transition: all 500ms ease-in-out; }
+
+.item-input:checked + .item-label { opacity: 1; }
+
+.item-input-1:checked ~ .bottom .bar { margin-left: 0; }
+.item-input-2:checked ~ .bottom .bar { margin-left: 33.3%; }
+.item-input-3:checked ~ .bottom .bar { margin-left: 66.6%; }
