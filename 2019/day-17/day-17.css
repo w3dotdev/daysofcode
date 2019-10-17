@@ -1,0 +1,82 @@
+.accordion {
+  width: 600px;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+}
+
+.input { display: none; }
+.input:checked + .tab .content { height: 175px; }
+.input:checked + .tab .content .content-2 { top: 0; transition: all 0.3s 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+.input:not(checked) + .tab .content { height: 60px; }
+.input:not(checked) + .tab .content .content-2 { top: 200px; transition: all 0.3s 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+.input:checked + .tab .content .content-1 .icon {
+  animation: _moveIn 0.55s 0.05s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  transition: all 0.3s 0.36s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.input:not(checked) + .tab .content .content-1 .icon {
+  animation: _moveOut 0.75s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  transition: all 0.3s 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.tab { display: block; width: 100%; }
+
+.tab:nth-of-type(1) .content { background: #714cc5; height: 200px; }
+.tab:nth-of-type(1) .content:hover { background: #835fd4; transition: all 0.2s; }
+.tab:nth-of-type(1) .content .icon { background: #188188; }
+.tab:nth-of-type(2) .content { background: #a62eb3; }
+.tab:nth-of-type(2) .content:hover { background: #bf47cc; transition: all 0.2s; }
+.tab:nth-of-type(2) .content .icon { background: #714cc5; }
+.tab:nth-of-type(3) .content { background: #188188; }
+.tab:nth-of-type(3) .content:hover {  background: #3f9096; transition: all 0.2s; }
+.tab:nth-of-type(3) .content .icon { background: #a62eb3; }
+
+.content {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  height: 60px;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.65s cubic-bezier(1, 0, 0.41, 1.01);
+  width: 100%;
+}
+
+.title { color: #fff; font-size: 17px; padding: 20px; text-align: right; width: 100%; }
+.text { color: #f9f79f; font-size: 14px; }
+
+.content-1 { position: relative; width: 30%; }
+.content-2 { padding: 20px; position: relative; top: 200px; text-align: right; width: 60%; }
+
+.icon {
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  background: #fff;
+  justify-content: center;
+  height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  width: 60px;
+}
+
+.icon:before { color: #fff; content: "★"; display: block; }
+
+@keyframes _moveIn {
+  0% { top: -200px; }
+  100% { top: 47px; }
+}
+
+@keyframes _moveOut {
+  0% { top: 47px; }
+  100% { top: 200px; }
+}
