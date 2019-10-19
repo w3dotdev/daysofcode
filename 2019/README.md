@@ -31,8 +31,8 @@
 |Day 16 | ![](?v=4&s=100) | [Slide Tab Bar](./day-16/)
 |Day 17 | ![](?v=4&s=100) | [Animated Accordion](./day-17/)
 |Day 18 | ![](?v=4&s=100) | [Wave Text Animation](./day-18/)
+|Day 19 | ![](?v=4&s=100) | [Flip Card](./day-19/)
 
-- [Day 19 - ](./day-19/)
 - [Day 20 - ](./day-20/)
 - [Day 21 - ](./day-21/)
 - [Day 22 - ](./day-22/)

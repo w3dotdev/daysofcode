@@ -1,0 +1,98 @@
+.deck { display: flex; flex-direction: row; flex-flow: row wrap; perspective: 4000px; }
+
+.input { animation: step-end 0.8s; cursor: pointer; margin: 0 5px 10px; opacity: 0; z-index: 999; }
+
+.label {
+  background: #fff;
+  color: #000;
+  box-shadow: 100px 30px 30px -10px rgba(0, 0, 0, 0.4);
+  filter: brightness(3);
+  text-decoration: none;
+  transform: translateX(160%) rotateY(-180deg);
+  transform-origin: -30% center;
+}
+
+.image {
+  background: #000;
+  display: block;
+  height: 80px;
+  margin: 5px auto 8px;
+  width: 100%;
+}
+
+.description { font-size: 12px; }
+
+.item {
+  background: #531e8c;
+  background: linear-gradient(#531e8c, #160727);
+  border: 5px solid #f8fff9;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  transform: translateX(0%) rotateY(0deg);
+  transform-origin: 130% center;
+  filter: brightness(1);
+}
+
+.item:before,
+.item:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: .3;
+}
+
+.item:after { background-position: calc(50% + 18px) calc(50% + 18px); }
+
+.label,
+.item {
+  backface-visibility: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  left: -5px;
+  margin-left: -200px;
+  text-align: center;
+  transition: all 0.8s;
+  transform-style: preserve-3d;
+  vertical-align: top;
+  z-index: 0;
+}
+
+.input,
+.label,
+.item { height: 150px; position: relative; width: 200px; }
+
+.input:checked + .label,
+.input:checked + .label + .item { z-index: 100; }
+
+.input:focus + .label,
+.input:focus + .label + .item { outline: 0; transition-property:  transform, filter, box-shadow; z-index: 900; }
+
+.input:checked + .label {
+  transform: translateX(0%) rotateY(0deg);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+  filter: brightness(1);
+}
+
+.input:checked + .label + .item {
+  transform: translateX(-160%) rotateY(180deg);
+  box-shadow: 80px 10px 20px -40px rgba(0, 0, 0, 0);
+  filter: brightness(0);
+}
+
+.input:checked { animation-name: _front; }
+.input:not(:checked) { animation-name: _back; }
+
+@keyframes _front {
+  0%   { visibility: hidden; }
+  100% { visibility: visible; }
+}
+
+@keyframes _back {
+  0%   { visibility: hidden; }
+  100% { visibility: visible; }
+}
