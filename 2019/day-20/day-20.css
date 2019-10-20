@@ -1,0 +1,36 @@
+.input { display: none; }
+
+.label {
+  background-color: #fff;
+  border-radius: 30vw;
+  border: 1vw solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  height: 10vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  width: 30vw;
+}
+
+.label:before {
+  background-color:#ccc;
+  border-radius: 50%;
+  border: 1vw solid #bbb;
+  content: '';
+  height: 10vw;
+  position: absolute;
+  top: -10%;
+  left: -3%;
+  transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+  transform-origin: right center;
+  width: 10vw;
+}
+
+.input:checked + .label:before { background: #c9a1e2; border-color: #995dbf; transform: translateX(198%); }
+.input:checked + .label { border-color: #995dbf; }
+
+.label:after { content: "OFF"; display: block; position: absolute; bottom: -50px; text-align: center; width: 100%; }
+.input:checked + .label:after { content: "ON"; }
