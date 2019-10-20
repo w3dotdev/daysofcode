@@ -13,27 +13,27 @@
 
 || Preview ||
 |:-------------- |:--------------:| :--------------|
-|Day 1 | ![](?v=4&s=100) | [Smile](./day-1/) |
-|Day 2 | ![](?v=4&s=100) | [Movie Card With Hover Effect](./day-2/) |
-|Day 3 | ![](?v=4&s=100) | [Pacman Loader](./day-3/)
-|Day 4 | ![](?v=4&s=100) | [Smartphone With Slide Left Transition](./day-4/)
-|Day 5 | ![](?v=4&s=100) | [Compass](./day-5/)
-|Day 6 | ![](?v=4&s=100) | [Bar Chart](./day-6/)
-|Day 7 | ![](?v=4&s=100) | [Data Filter](./day-7/)
-|Day 8 | ![](?v=4&s=100) | [Circular Menu](./day-8/)
-|Day 9 | ![](?v=4&s=100) | [Target Game](./day-9/)
-|Day 10 | ![](?v=4&s=100) | [Calendar - CSS Grid](./day-10/)
-|Day 11 | ![](?v=4&s=100) | [Carousel Autoplay](./day-11/)
-|Day 12 | ![](?v=4&s=100) | [Slider](./day-12/)
-|Day 13 | ![](?v=4&s=100) | [Neon Text Effect](./day-13/)
-|Day 14 | ![](?v=4&s=100) | [Responsive Table](./day-14/)
-|Day 15 | ![](?v=4&s=100) | [Button Ripple Effect](./day-15/)
-|Day 16 | ![](?v=4&s=100) | [Slide Tab Bar](./day-16/)
-|Day 17 | ![](?v=4&s=100) | [Animated Accordion](./day-17/)
-|Day 18 | ![](?v=4&s=100) | [Wave Text Animation](./day-18/)
-|Day 19 | ![](?v=4&s=100) | [Flip Card](./day-19/)
+|Day 1 | ![](thumbnails/day-1.jpg?v=4&s=100) | [Smile](./day-1/) |
+|Day 2 | ![](thumbnails/day-2.jpg?v=4&s=100) | [Movie Card With Hover Effect](./day-2/) |
+|Day 3 | ![](thumbnails/day-3.jpg?v=4&s=100) | [Pacman Loader](./day-3/)
+|Day 4 | ![](thumbnails/day-4.jpg?v=4&s=100) | [Smartphone With Slide Left Transition](./day-4/)
+|Day 5 | ![](thumbnails/day-5.jpg?v=4&s=100) | [Compass](./day-5/)
+|Day 6 | ![](thumbnails/day-6.jpg?v=4&s=100) | [Bar Chart](./day-6/)
+|Day 7 | ![](thumbnails/day-7.jpg?v=4&s=100) | [Data Filter](./day-7/)
+|Day 8 | ![](thumbnails/day-8.jpg?v=4&s=100) | [Circular Menu](./day-8/)
+|Day 9 | ![](thumbnails/day-9.jpg?v=4&s=100) | [Target Game](./day-9/)
+|Day 10 | ![](thumbnails/day-10.jpg?v=4&s=100) | [Calendar - CSS Grid](./day-10/)
+|Day 11 | ![](thumbnails/day-11.jpg?v=4&s=100) | [Carousel Autoplay](./day-11/)
+|Day 12 | ![](thumbnails/day-12.jpg?v=4&s=100) | [Slider](./day-12/)
+|Day 13 | ![](thumbnails/day-13.jpg?v=4&s=100) | [Neon Text Effect](./day-13/)
+|Day 14 | ![](thumbnails/day-14.jpg?v=4&s=100) | [Responsive Table](./day-14/)
+|Day 15 | ![](thumbnails/day-15.jpg?v=4&s=100) | [Button Ripple Effect](./day-15/)
+|Day 16 | ![](thumbnails/day-16.jpg?v=4&s=100) | [Slide Tab Bar](./day-16/)
+|Day 17 | ![](thumbnails/day-17.jpg?v=4&s=100) | [Animated Accordion](./day-17/)
+|Day 18 | ![](thumbnails/day-18.jpg?v=4&s=100) | [Wave Text Animation](./day-18/)
+|Day 19 | ![](thumbnails/day-19.jpg?v=4&s=100) | [Flip Card](./day-19/)
+|Day 20 | ![](thumbnails/day-20.jpg?v=4&s=100) | [](./day-20/)
 
-- [Day 20 - ](./day-20/)
 - [Day 21 - ](./day-21/)
 - [Day 22 - ](./day-22/)
 - [Day 23 - ](./day-23/)
