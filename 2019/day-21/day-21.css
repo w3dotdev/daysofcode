@@ -1,0 +1,99 @@
+.tooltip { position: relative; text-decoration: none; }
+
+.tooltip:after,
+.tooltip:before { opacity: 0; position: absolute; transition: opacity .25s ease-in-out; z-index: 100; }
+
+.tooltip:before { content: ''; border-width: 6px; border-style: solid; height: 0; width: 0; }
+
+.tooltip:after {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  content: attr(aria-label);
+  line-height: 1;
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  border-radius: 4px;
+  text-shadow: 0 0 5px #000;
+  white-space: nowrap
+}
+
+.tooltip:hover:after,
+.tooltip:focus:after,
+.tooltip:hover:before,
+.tooltip:focus:before { opacity: 1; }
+
+/* TOP */
+.tooltip.top:after,
+.tooltip.top:before { bottom: 90%; left: -9999px; margin-bottom: 12px; transition: bottom .25s ease-in-out; }
+
+.tooltip.top:before { border-color: #222 transparent transparent transparent; margin-bottom: 0 }
+
+.tooltip.top:hover:after,
+.tooltip.top:focus:after,
+.tooltip.top:hover:before,
+.tooltip.top:focus:before { bottom: 85%; left: 0 }
+
+.tooltip.top:hover:before,
+.tooltip.top:focus:before { left: 15px; }
+
+/* BOTTOM */
+.tooltip.bottom:after,
+.tooltip.bottom:before { margin-top: 12px; left: -9999px; transition: top .25s ease-in-out; top: 90%; }
+
+.tooltip.bottom:before { border-color: transparent transparent #222 transparent; margin-top: 0 }
+
+.tooltip.bottom:hover:after,
+.tooltip.bottom:focus:after,
+.tooltip.bottom:hover:before,
+.tooltip.bottom:focus:before { left: 0; top: 85%; }
+
+.tooltip.bottom:hover:before,
+.tooltip.bottom:focus:before { left: 15px; }
+
+/* RIGHT */
+.tooltip.right:after,
+.tooltip.right:before { left: 96%; margin-left: 12px; top: -9999px; transition: left .25s ease-in-out; }
+
+.tooltip.right:before { border-color: transparent #222 transparent transparent; margin-left: 0; }
+
+.tooltip.right:hover:after,
+.tooltip.right:focus:after,
+.tooltip.right:hover:before,
+.tooltip.right:focus:before { left: 95%; top: 0; }
+
+.tooltip.right:hover:before,
+.tooltip.right:focus:before { top: 7px; }
+
+/* LEFT */
+.tooltip.left:after,
+.tooltip.left:before { margin-right: 12px; right: 96%; top: -9999px; transition: right .25s ease-in-out; }
+
+.tooltip.left:before { border-color: transparent transparent transparent #222; margin-right: 0; }
+
+.tooltip.left:hover:after,
+.tooltip.left:focus:after,
+.tooltip.left:hover:before,
+.tooltip.left:focus:before { right: 95%; top: 0; }
+
+.tooltip.left:hover:before,
+.tooltip.left:focus:before { top: 7px; }
+
+/* LINK */
+.link {
+  background: #fff;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  min-width: 100px;
+  padding: 8px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus { background: #eee }
