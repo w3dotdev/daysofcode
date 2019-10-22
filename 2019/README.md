@@ -34,8 +34,8 @@
 |Day 19 | <img src="thumbnails/day-19.jpg" width="100"> | [Flip Card](./day-19/)
 |Day 20 | <img src="thumbnails/day-20.jpg" width="100"> | [Custom Toggle Switch](./day-20/)
 |Day 21 | <img src="thumbnails/day-21.jpg" width="100"> | [Tooltip with aria-label](./day-21/)
+|Day 22 | <img src="thumbnails/day-22.jpg" width="100"> | [](./day-22/)
 
-- [Day 22 - ](./day-22/)
 - [Day 23 - ](./day-23/)
 - [Day 24 - ](./day-24/)
 - [Day 25 - ](./day-25/)
