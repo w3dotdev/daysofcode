@@ -36,8 +36,8 @@
 |Day 21 | <img src="thumbnails/day-21.jpg" width="100"> | [Tooltip with aria-label](./day-21/)
 |Day 22 | <img src="thumbnails/day-22.jpg" width="100"> | [Social Media Animation](./day-22/)
 |Day 23 | <img src="thumbnails/day-23.jpg" width="100"> | [Parallax Effect](./day-23/)
+|Day 24 | <img src="thumbnails/day-23.jpg" width="100"> | [Simple form](./day-24/)
 
-- [Day 24 - ](./day-24/)
 - [Day 25 - ](./day-25/)
 - [Day 26 - ](./day-26/)
 - [Day 27 - ](./day-27/)
