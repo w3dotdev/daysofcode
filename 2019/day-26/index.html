@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 26</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #eee; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 80px auto; max-width: 992px; text-align: center; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-26.css">
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" class="input" name="modal" id="close" checked />
+
+      <input type="radio" class="input" name="modal" id="photo-1" />
+      <input type="radio" class="input" name="modal" id="photo-2" />
+      <input type="radio" class="input" name="modal" id="photo-3" />
+      <input type="radio" class="input" name="modal" id="photo-4" />
+      <input type="radio" class="input" name="modal" id="photo-5" />
+      <input type="radio" class="input" name="modal" id="photo-6" />
+      <input type="radio" class="input" name="modal" id="photo-7" />
+      <input type="radio" class="input" name="modal" id="photo-8" />
+
+      <div class="main">
+        <section class="gallery">
+          <label class="gallery-item" for="photo-1"><img class="gallery-item-image" src="https://place-hold.it/200x200/4b1f71/fff&text=1" /></label>
+          <label class="gallery-item" for="photo-2"><img class="gallery-item-image" src="https://place-hold.it/200x200/1f2871/fff&text=2" /></label>
+          <label class="gallery-item" for="photo-3"><img class="gallery-item-image" src="https://place-hold.it/200x200/23711f/fff&text=3" /></label>
+          <label class="gallery-item" for="photo-4"><img class="gallery-item-image" src="https://place-hold.it/200x200/711f1f/fff&text=4" /></label>
+          <label class="gallery-item" for="photo-5"><img class="gallery-item-image" src="https://place-hold.it/200x200/715c1f/fff&text=5" /></label>
+          <label class="gallery-item" for="photo-6"><img class="gallery-item-image" src="https://place-hold.it/200x200/71371f/fff&text=6" /></label>
+          <label class="gallery-item" for="photo-7"><img class="gallery-item-image" src="https://place-hold.it/200x200/999/fff&text=7" /></label>
+          <label class="gallery-item" for="photo-8"><img class="gallery-item-image" src="https://place-hold.it/200x200/000/fff&text=8" /></label>
+        </section>
+
+        <div class="lightbox">
+          <label class="overlay" for="close"></label>
+          <div class="lightbox-content">
+            <label class="lightbox-close" for="close">fechar</label>
+            <div class="lightbox-photo">
+              <label class="lightbox-photo-label" for="photo-1"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/4b1f71/fff&text=1" /></label>
+              <label class="lightbox-photo-label" for="photo-2"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/1f2871/fff&text=2" /></label>
+              <label class="lightbox-photo-label" for="photo-3"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/23711f/fff&text=3" /></label>
+              <label class="lightbox-photo-label" for="photo-4"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/711f1f/fff&text=4" /></label>
+              <label class="lightbox-photo-label" for="photo-5"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/715c1f/fff&text=5" /></label>
+              <label class="lightbox-photo-label" for="photo-6"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/71371f/fff&text=6" /></label>
+              <label class="lightbox-photo-label" for="photo-7"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/999/fff&text=7" /></label>
+              <label class="lightbox-photo-label" for="photo-8"><img class="lightbox-photo-image" src="https://place-hold.it/500x500/000/fff&text=8" /></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

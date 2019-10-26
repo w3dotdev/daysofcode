@@ -38,9 +38,8 @@
 |Day 23 | <img src="thumbnails/day-23.jpg" width="100"> | [Parallax Effect](./day-23/)
 |Day 24 | <img src="thumbnails/day-24.jpg" width="100"> | [Simple form](./day-24/)
 |Day 25 | <img src="thumbnails/day-25.jpg" width="100"> | [Experiment with color input type](./day-25/)
+|Day 26 | <img src="thumbnails/day-26.jpg" width="100"> | [Gallery with Modal](./day-26/)
 
-- [Day 25 - ](./day-25/)
-- [Day 26 - ](./day-26/)
 - [Day 27 - ](./day-27/)
 - [Day 28 - ](./day-28/)
 - [Day 29 - ](./day-29/)
