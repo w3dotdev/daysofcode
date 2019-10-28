@@ -1,4 +1,4 @@
-body { counter-reset: count; margin: 0; }
+body { counter-reset: count; }
 
 .input { position:fixed; left: -50%; bottom: -50%; }
 .input:checked { counter-increment: count; }

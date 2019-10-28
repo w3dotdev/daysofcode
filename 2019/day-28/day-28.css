@@ -20,28 +20,26 @@
     grid-column: auto / span var(--grid-col, auto);
     grid-row: auto / span var(--grid-row, auto);
     order: var(--grid-order,0);
-    min-width: 0;
   }
 }
 
-.bg, .snow { z-index: -1; }
-
 .bg {
+  height: 100%;
   overflow: hidden;
   position: absolute;
   top: 0;
-  height: 100%;
-  width: 100%;
   max-width: 100%;
+  z-index: -1;
+  width: 100%;
 }
 
 .snow {
+  animation: _fall linear infinite both;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  animation: _fall linear infinite both;
   transform: translate3D(0, -100%, 0);
 }
 
