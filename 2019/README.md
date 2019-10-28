@@ -40,8 +40,8 @@
 |Day 25 | <img src="thumbnails/day-25.jpg" width="100"> | [Experiment with color input type](./day-25/)
 |Day 26 | <img src="thumbnails/day-26.jpg" width="100"> | [Gallery with Modal](./day-26/)
 |Day 27 | <img src="thumbnails/day-27.jpg" width="100"> | [Kill Fly Game](./day-27/)
+|Day 28 | <img src="thumbnails/day-28.jpg" width="100"> | [CSS Grid Layout](./day-28/)
 
-- [Day 28 - ](./day-28/)
 - [Day 29 - ](./day-29/)
 - [Day 30 - ](./day-30/)
 

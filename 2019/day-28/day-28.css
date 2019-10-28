@@ -1,0 +1,61 @@
+:root {
+  --grid-number: auto;
+  --grid-gutter: 0;
+  --grid-col: 1;
+  --grid-row: 1;
+  --grid-order: 0;
+}
+
+.grid { display: grid; grid-gap: var(--grid-gutter); grid-auto-flow: row dense; --grid-number: 3; --grid-gutter: 1rem; }
+
+.grid-item { background: #210738; color: #fff; padding: 1rem; }
+
+.col-2 { --grid-col: 2; }
+.col-3 { --grid-col: 3; }
+.row-2 { --grid-row: 2; }
+
+@media (min-width: 480px) {
+  .grid { grid-template-columns: repeat(var(--grid-number), 1fr); }
+  .grid-item {
+    grid-column: auto / span var(--grid-col, auto);
+    grid-row: auto / span var(--grid-row, auto);
+    order: var(--grid-order,0);
+    min-width: 0;
+  }
+}
+
+.bg, .snow { z-index: -1; }
+
+.bg {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: _fall linear infinite both;
+  transform: translate3D(0, -100%, 0);
+}
+
+.snow--1,
+.snow--3 { background-image: url("./snow-1.png"); background-size: contain; }
+.snow--2,
+.snow--4 { background-image: url("./snow-2.png"); background-size: contain; }
+
+.snow--1 { animation-duration: 15s; }
+.snow--2 { animation-duration: 10s; }
+.snow--3 { animation-duration: 20s; }
+.snow--4 { animation-duration: 15s; }
+
+@keyframes _fall {
+  0% { transform: translate3D(-7.5%, -100%, 0); }
+  100% { transform: translate3D(7.5%, 100%, 0); }
+}
