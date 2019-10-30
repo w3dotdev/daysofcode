@@ -42,8 +42,7 @@
 |Day 27 | <img src="thumbnails/day-27.jpg" width="100"> | [Kill Fly Game](./day-27/)
 |Day 28 | <img src="thumbnails/day-28.jpg" width="100"> | [CSS Grid Layout](./day-28/)
 |Day 29 | <img src="thumbnails/day-29.jpg" width="100"> | [Pure CSS Shapes](./day-29/)
-
-- [Day 30 - ](./day-30/)
+|Day 30 | <img src="thumbnails/day-30.jpg" width="100"> | [Animation](./day-30/)
 
 ### HTML, CSS & JavaScript
 

@@ -134,7 +134,7 @@
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
 	height: 0;
-	position: absolute;
+	position: relative;
 	width: 0;
 }
 .star-six:after {
