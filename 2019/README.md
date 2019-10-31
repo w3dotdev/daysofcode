@@ -46,7 +46,10 @@
 
 ### HTML, CSS & JavaScript
 
-- [Day 31 - ](./day-31/)
+|| Preview ||
+|:-------------- |:--------------:| :--------------|
+|Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./day-31/)
+
 - [Day 32 - ](./day-32/)
 - [Day 33 - ](./day-33/)
 - [Day 34 - ](./day-34/)
