@@ -49,8 +49,8 @@
 || Preview ||
 |:-------------- |:--------------:| :--------------|
 |Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./day-31/)
+|Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./day-32/)
 
-- [Day 32 - ](./day-32/)
 - [Day 33 - ](./day-33/)
 - [Day 34 - ](./day-34/)
 - [Day 35 - ](./day-35/)
