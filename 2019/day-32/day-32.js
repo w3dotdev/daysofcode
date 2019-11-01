@@ -16,19 +16,18 @@ toggle.addEventListener('click', () => {
   }
 });
 
-
 const frames = document.querySelectorAll('[data-js="frame"]');
 let mouseDown = false;
 
 const mousemove = frame => evt => {
   if (mouseDown) {
     const offset = frame.getBoundingClientRect();
-    var centerX = (offset.left) + (offset.width / 2);
-    var centerY = (offset.top) + (offset.height / 2);
+    const centerX = (offset.left) + (offset.width / 2);
+    const centerY = (offset.top) + (offset.height / 2);
     // The atan2() method returns the arctangent of the quotient of its arguments, as a numeric value between PI and -PI radians.
     // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2
-    var radians = Math.atan2(evt.pageX - centerX, evt.pageY - centerY);
-    var angle = (radians * (180 / Math.PI) * -1) - 90;
+    const radians = Math.atan2(evt.pageX - centerX, evt.pageY - centerY);
+    const angle = (radians * (180 / Math.PI) * -1) - 90;
 
     frame.style.transform = `rotate(${angle}deg)`;
   }
