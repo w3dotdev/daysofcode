@@ -50,8 +50,8 @@
 |:-------------- |:--------------:| :--------------|
 |Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./day-31/)
 |Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./day-32/)
+|Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./day-33/)
 
-- [Day 33 - ](./day-33/)
 - [Day 34 - ](./day-34/)
 - [Day 35 - ](./day-35/)
 - [Day 36 - ](./day-36/)

@@ -1,0 +1,20 @@
+.title { border-bottom: 2px solid #fff; color: #fff; padding-bottom: 10px; }
+
+.subtitle { align-items: center; color: #fff; display: flex; flex-direction: row; justify-content: space-between; margin: 20px 0; text-align: left; }
+.subtitle span { background: #ffd700; border-radius: 4px; color: #6d340b; font-size: 1.4rem; opacity: 0.8; padding: 0 10px; }
+
+.table { width: 100% }
+
+.table th,
+.table td { color: #fff; padding: 5px 10px; }
+
+.color-1 th,
+.color-2 th,
+.color-1 tfoot td,
+.color-2 tfoot td { background: #000; color: #fadfa6; }
+
+.color-1 tr:nth-child(even) { background: #254397; }
+.color-1 tr:nth-child(odd) { background: #548ebd; }
+
+.color-2 tr:nth-child(even) { background: #972525; }
+.color-2 tr:nth-child(odd) { background: #bd5454; }
