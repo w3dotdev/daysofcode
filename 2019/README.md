@@ -44,16 +44,16 @@
 |Day 29 | <img src="thumbnails/day-29.jpg" width="100"> | [Pure CSS Shapes](./day-29/)
 |Day 30 | <img src="thumbnails/day-30.jpg" width="100"> | [Animation](./day-30/)
 
-### HTML, CSS & JavaScript
+### HTML, CSS, SVG, Canvas & JavaScript
 
-|| Preview ||
-|:-------------- |:--------------:| :--------------|
-|Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./day-31/)
-|Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./day-32/)
-|Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./day-33/)
-|Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./day-34/)
+|| Preview |||
+|:-------------- |:--------------:| :--------------| :--------------|
+|Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./day-31/) | `html` `css` `js`
+|Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./day-32/) | `html` `css` `svg` `js`
+|Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./day-33/) | `html` `css` `js`
+|Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./day-34/) | `html` `css` `js`
+|Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./day-35/) | `html` `css` `js`
 
-- [Day 35 - ](./day-35/)
 - [Day 36 - ](./day-36/)
 - [Day 37 - ](./day-37/)
 - [Day 38 - ](./day-38/)

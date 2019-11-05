@@ -1,0 +1,37 @@
+.row { align-items: center; display: flex; flex-direction: row; justify-content: flex-end; margin: 10px 0; }
+
+.row:first-child { margin-bottom: 40px; }
+
+.balls { display: flex; flex-direction: row; justify-content: end; }
+
+.ball {
+  align-items: center;
+  animation: _rotate 0.8s ease-in-out infinite alternate;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYW1hZGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6I2RkZGQ0NX08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xLjggMjEuNEMxLjEgMjMuMi41IDI2IC4yIDI4Yy0uNCAzLjItLjIgNy42LjUgMTAuOS40IDEuNyAxLjcgNS41IDIuNSA3LjIuNyAxLjUgMiAzLjcgMi4yIDMuOC4xIDAgLjYtLjQgMS4xLS45IDQuOS00LjggNy4yLTEwLjYgNy4xLTE3LjctLjEtNS0xLjUtOS40LTQuNC0xMy40LS40LS45LTIuNi0zLjQtMy4yLTMuOC0uNC0uMy0uNC0uMy0xLjUgMS41LTEgMS42LTIuMSA0LTIuNyA1Ljh6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTkuMSAxMC44YzUuOCA1LjUgOC45IDEyLjUgOSAyMC40LjEgNS0uNyA4LjctMi43IDEyLjgtMS42IDMuNC0zLjcgNi4yLTYuNCA4LjctLjQuNC0uNy43LS43LjggMCAuMyAzLjIgMy4yIDQuNiA0LjIgNi43IDQuOSAxNS4xIDcuMSAyMy4yIDYgMi4zLS4zIDMuNi0uNiA2LjEtMS41IDMuNy0xLjMgNi40LTIuNyA5LjMtNSAxLjQtMS4xIDMuOS0zLjQgMy44LTMuNUw1NCA1Mi40Yy0zLjMtMy40LTUuNC02LjUtNi44LTEwLjgtMS44LTUuMi0yLTExLjMtLjYtMTYuOS40LTEuNS42LTIuMSAxLjktNC45IDEuMy0yLjggMS42LTMuMyAyLjUtNC41IDEuMS0xLjQgMi43LTMuMiAzLjgtNC4yLjQtLjMuNy0uNy43LS44cy0uNy0uOC0xLjUtMS41QzQ3LjkgMyA0MC0uMSAzMS41IDBjLTQgLjEtNi45LjYtMTAuOCAyLTIuNS45LTMuNiAxLjUtNS43IDIuNy0xLjUgMS00LjUgMy4zLTUuNiA0LjQtLjMuNS0uNy45LS44IDEgMCAuMS4yLjQuNS43eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01MS4zIDI1Yy0yIDYuNi0xLjEgMTQgMi4zIDE5LjYgMS4zIDIuMiA0LjQgNS43IDQuOCA1LjUuMy0uMiAxLjktMi45IDIuNi00LjQgMi45LTYuMiAzLjgtMTMuOSAyLjMtMjAuNi0uNC0xLjctMS42LTUuMS0yLjMtNi42cy0yLjItNC4xLTIuNC00LjJjLS4yLS4xLTEuOSAxLjYtMy4xIDMuMS0yIDIuMS0zLjUgNC45LTQuMiA3LjZ6Ii8+PC9zdmc+");
+  color: #000;
+  display: flex;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  margin: 0 10px;
+  width: 32px;
+}
+
+.return { color: #fff; display: block; line-height: 1; text-align: left; width: 491px; }
+
+.joker { color: #fff; display: flex; flex-direction: row; justify-content: space-around; margin: 40px 0; }
+
+.firstLession { align-items: center; border-left: 1px solid #fff; border-right: 1px solid #fff; border-radius: 50px; width: 400px; display: flex; justify-content: center; position: relative; }
+
+.firstLession span { position: absolute; top: 0;  }
+.firstLession span.on { color: #167052; }
+.firstLession span.off { color: #a51a1a; }
+
+
+.buttons { display: flex; flex-direction: column; justify-content: space-between; }
+.buttons button { background: #fff; border: none; border-radius: 4px; color: #000; cursor: pointer; padding: 10px 5px; }
+
+@keyframes _rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(45deg); }
+}
