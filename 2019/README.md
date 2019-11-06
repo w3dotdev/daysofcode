@@ -55,71 +55,74 @@
 |Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./day-35/) | `html` `css` `js`
 |Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./day-36/) | `html` `css` `js`
 
-
-- [Day 37 - ](./day-37/)
-- [Day 38 - ](./day-38/)
-- [Day 39 - ](./day-39/)
-- [Day 40 - ](./day-40/)
-- [Day 41 - ](./day-41/)
-- [Day 42 - ](./day-42/)
-- [Day 43 - ](./day-43/)
-- [Day 44 - ](./day-44/)
-- [Day 45 - ](./day-45/)
-- [Day 46 - ](./day-46/)
-- [Day 47 - ](./day-47/)
-- [Day 48 - ](./day-48/)
-- [Day 49 - ](./day-49/)
-- [Day 50 - ](./day-50/)
-- [Day 51 - ](./day-51/)
-- [Day 52 - ](./day-52/)
-- [Day 53 - ](./day-53/)
-- [Day 54 - ](./day-54/)
-- [Day 55 - ](./day-55/)
-- [Day 56 - ](./day-56/)
-- [Day 57 - ](./day-57/)
-- [Day 58 - ](./day-58/)
-- [Day 59 - ](./day-59/)
-- [Day 60 - ](./day-60/)
+|Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [](./day-37/) | `html` `css` `js`
+|Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [](./day-38/) | `html` `css` `js`
+|Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [](./day-39/) | `html` `css` `js`
+|Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [](./day-40/) | `html` `css` `js`
+|Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [](./day-41/) | `html` `css` `js`
+|Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | [](./day-42/) | `html` `css` `js`
+|Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [](./day-43/) | `html` `css` `js`
+|Day 44 | <img src="thumbnails/day-44.jpg" width="100"> | [](./day-44/) | `html` `css` `js`
+|Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [](./day-45/) | `html` `css` `js`
+|Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | [](./day-46/) | `html` `css` `js`
+|Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | [](./day-47/) | `html` `css` `js`
+|Day 48 | <img src="thumbnails/day-48.jpg" width="100"> | [](./day-48/) | `html` `css` `js`
+|Day 49 | <img src="thumbnails/day-49.jpg" width="100"> | [](./day-49/) | `html` `css` `js`
+|Day 50 | <img src="thumbnails/day-50.jpg" width="100"> | [](./day-50/) | `html` `css` `js`
+|Day 51 | <img src="thumbnails/day-51.jpg" width="100"> | [](./day-51/) | `html` `css` `js`
+|Day 52 | <img src="thumbnails/day-52.jpg" width="100"> | [](./day-52/) | `html` `css` `js`
+|Day 53 | <img src="thumbnails/day-53.jpg" width="100"> | [](./day-53/) | `html` `css` `js`
+|Day 54 | <img src="thumbnails/day-54.jpg" width="100"> | [](./day-54/) | `html` `css` `js`
+|Day 55 | <img src="thumbnails/day-55.jpg" width="100"> | [](./day-55/) | `html` `css` `js`
+|Day 56 | <img src="thumbnails/day-56.jpg" width="100"> | [](./day-56/) | `html` `css` `js`
+|Day 57 | <img src="thumbnails/day-57.jpg" width="100"> | [](./day-57/) | `html` `css` `js`
+|Day 58 | <img src="thumbnails/day-58.jpg" width="100"> | [](./day-58/) | `html` `css` `js`
+|Day 59 | <img src="thumbnails/day-59.jpg" width="100"> | [](./day-59/) | `html` `css` `js`
+|Day 60 | <img src="thumbnails/day-60.jpg" width="100"> | [](./day-60/) | `html` `css` `js`
 
 ### Libraries & Frameworks
 
-- [Day 61 - ](./day-61/)
-- [Day 62 - ](./day-62/)
-- [Day 63 - ](./day-63/)
-- [Day 64 - ](./day-64/)
-- [Day 65 - ](./day-65/)
-- [Day 66 - ](./day-66/)
-- [Day 67 - ](./day-67/)
-- [Day 68 - ](./day-68/)
-- [Day 69 - ](./day-69/)
-- [Day 70 - ](./day-70/)
-- [Day 71 - ](./day-71/)
-- [Day 72 - ](./day-72/)
-- [Day 73 - ](./day-73/)
-- [Day 73 - ](./day-73/)
-- [Day 74 - ](./day-74/)
-- [Day 75 - ](./day-75/)
-- [Day 76 - ](./day-76/)
-- [Day 77 - ](./day-77/)
-- [Day 78 - ](./day-78/)
-- [Day 79 - ](./day-79/)
-- [Day 80 - ](./day-80/)
-- [Day 81 - ](./day-81/)
-- [Day 82 - ](./day-82/)
-- [Day 83 - ](./day-83/)
-- [Day 84 - ](./day-84/)
-- [Day 85 - ](./day-85/)
-- [Day 86 - ](./day-86/)
-- [Day 87 - ](./day-87/)
-- [Day 88 - ](./day-88/)
-- [Day 89 - ](./day-89/)
-- [Day 90 - ](./day-90/)
+|| Preview |||
+|:-------------- |:--------------:| :--------------| :--------------|
+
+|Day 61 | <img src="thumbnails/day-61.jpg" width="100"> | [](./day-61/) |
+|Day 62 | <img src="thumbnails/day-62.jpg" width="100"> | [](./day-62/) |
+|Day 63 | <img src="thumbnails/day-63.jpg" width="100"> | [](./day-63/) |
+|Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | [](./day-64/) |
+|Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | [](./day-65/) |
+|Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | [](./day-66/) |
+|Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | [](./day-67/) |
+|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | [](./day-68/) |
+|Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | [](./day-69/) |
+|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | [](./day-70/) |
+|Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | [](./day-71/) |
+|Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | [](./day-72/) |
+|Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | [](./day-73/) |
+|Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | [](./day-74/) |
+|Day 75 | <img src="thumbnails/day-75.jpg" width="100"> | [](./day-75/) |
+|Day 76 | <img src="thumbnails/day-76.jpg" width="100"> | [](./day-76/) |
+|Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | [](./day-77/) |
+|Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | [](./day-78/) |
+|Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | [](./day-79/) |
+|Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | [](./day-80/) |
+|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | [](./day-81/) |
+|Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | [](./day-82/) |
+|Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | [](./day-83/) |
+|Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | [](./day-84/) |
+|Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | [](./day-85/) |
+|Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | [](./day-86/) |
+|Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | [](./day-87/) |
+|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | [](./day-88/) |
+|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | [](./day-89/) |
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | [](./day-90/) |
 
 ### 
 
-- [Day 91 - ](./day-91/)
-- [Day 92 - happy New Year](./day-92/)
+|| Preview |||
+|:-------------- |:--------------:| :--------------| :--------------|
 
+|Day 91 | <img src="thumbnails/day-91.jpg" width="100"> | [](./day-91/) |
+|Day 92 | <img src="thumbnails/day-92.jpg" width="100"> | [](./day-92/) |
 
 ## Contributing
 
