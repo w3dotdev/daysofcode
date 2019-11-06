@@ -53,8 +53,9 @@
 |Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./day-33/) | `html` `css` `js`
 |Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./day-34/) | `html` `css` `js`
 |Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./day-35/) | `html` `css` `js`
+|Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./day-36/) | `html` `css` `js`
 
-- [Day 36 - ](./day-36/)
+
 - [Day 37 - ](./day-37/)
 - [Day 38 - ](./day-38/)
 - [Day 39 - ](./day-39/)
