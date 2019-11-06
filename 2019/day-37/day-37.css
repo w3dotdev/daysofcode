@@ -1,0 +1,8 @@
+.items { display: flex; flex-direction: row; flex-flow: row wrap; justify-content: space-between; }
+.item { padding: 20px; width: 50%; }
+.item--full { width: 100%; }
+
+.title { text-transform: uppercase; }
+
+.content { margin: 10px 0; }
+.description { margin: 10px 0; }

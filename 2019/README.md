@@ -54,14 +54,14 @@
 |Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./day-34/) | `html` `css` `js`
 |Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./day-35/) | `html` `css` `js`
 |Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./day-36/) | `html` `css` `js`
+|Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [Playing with array - Splice, Slice, ToString and Join](./day-37/) | `html` `css` `js`
 
-|Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [](./day-37/) | `html` `css` `js`
 |Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [](./day-38/) | `html` `css` `js`
-|Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [](./day-39/) | `html` `css` `js`
+|Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./day-39/) | `html` `css` `js`
 |Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [](./day-40/) | `html` `css` `js`
-|Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [](./day-41/) | `html` `css` `js`
+|Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [Playing with array - Includes, IndexOf, LastIndexOf and Find](./day-41/) | `html` `css` `js`
 |Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | [](./day-42/) | `html` `css` `js`
-|Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [](./day-43/) | `html` `css` `js`
+|Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [Playing with array - Some, Every, Array.from and Array.of](./day-43/) | `html` `css` `js`
 |Day 44 | <img src="thumbnails/day-44.jpg" width="100"> | [](./day-44/) | `html` `css` `js`
 |Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [](./day-45/) | `html` `css` `js`
 |Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | [](./day-46/) | `html` `css` `js`
