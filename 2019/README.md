@@ -59,12 +59,12 @@
 
 |Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./day-39/) | `html` `css` `js`
 |Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [Cookies](./day-40/) | `html` `css` `js`
-|Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [Playing with array - Includes, IndexOf, LastIndexOf and Find](./day-41/) | `html` `css` `js`
+|Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [Playing with array - Includes, IndexOf, LastIndexOf, Find and FindIndex](./day-41/) | `html` `css` `js`
 |Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | [Credicard validator](./day-42/) | `html` `css` `js`
 |Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [Playing with array - Some, Every, Array.from and Array.of](./day-43/) | `html` `css` `js`
 |Day 44 | <img src="thumbnails/day-44.jpg" width="100"> | [Calculator](./day-44/) | `html` `css` `js`
-|Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [](./day-45/) | `html` `css` `js`
-|Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | [](./day-46/) | `html` `css` `js`
+|Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [NodeJS - Server-side JavaScript](./day-45/) | `html` `css` `js`
+|Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | [Playing with array - Entries, copyWithin, fill and reduceRight](./day-46/) | `html` `css` `js`
 |Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | [Data Structures in JS: Primitives](./day-47/) | `html` `css` `js`
 |Day 48 | <img src="thumbnails/day-48.jpg" width="100"> | [Data Structures in JS: Array](./day-48/) | `html` `css` `js`
 |Day 49 | <img src="thumbnails/day-49.jpg" width="100"> | [Data Structures in JS: Stacks](./day-49/) | `html` `css` `js`
