@@ -1,0 +1,37 @@
+.list { align-items: center; display: flex; flex-direction: row; flex-flow: row wrap; justify-content: center; }
+.item { background: #fff; color: #000; margin: 1%; padding: 10px; width: 8%; }
+
+.button { background: #3a97a5; border: none; border-radius: 4px; color: #fff; cursor: pointer; margin: 20px 10px; padding: 10px; }
+.button--reset { background: #ca4a50; }
+
+.ac,
+.am,
+.ap,
+.ro,
+.rr,
+.pa,
+.to { background: #20863f; }
+
+.pi,
+.ma,
+.ce,
+.rn,
+.pb,
+.pe,
+.se,
+.al,
+.ba { background: #862020; }
+
+.ms,
+.mt,
+.go,
+.df { background: #865f20; }
+
+.sp,
+.rj,
+.es,
+.mg { background: #cec10e; }
+
+.pr,
+.sc,
+.rs { background: #582086; }
