@@ -20,7 +20,7 @@ const renderList = (states, method) => {
       // ascending order
       states.sort();
       // This doesn't work when the data we wish to sort using is deep inside a property of the array object, and not the array itself.
-      // const example = { name: 'Hemerson', name: 'Nerd' }
+      // const example = [{ name: 'Hemerson', name: 'Nerd' }];
       // example.sort((param1, param2) => {
       //  const a = param1.name.toLowerCase(), b = param2.name.toLowerCase();
       //  return a > b ? 1 : b > a ? -1 : 0;

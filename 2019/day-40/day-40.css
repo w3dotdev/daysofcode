@@ -1,0 +1,108 @@
+.payment { display: flex; flex-direction: row; }
+.item { width: 50%; }
+
+/* FORM */
+.form-fieldset { border: none; padding: 10px 0; position: relative; }
+
+.form-label { display: block; text-transform: uppercase; font-size: 1.2rem; margin-bottom: 5px; font-weight: 700; text-align: left; width: 100%; }
+
+.form-field,
+.form-select { border: none; border-radius: 4px; font-size: 1.2rem; height: 35px; line-height: 1; overflow: hidden; padding: 10px; width: 100%; }
+
+.wrapper { display: flex; flex-direction: row; justify-content: space-between; }
+
+.form-select { background: #fff; position: relative; width: 45%; }
+.form-select:after {
+  content: '';
+  border-top: 8px solid #222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  right: 10px;
+  pointer-events: none;
+}
+.form-select-tag { -webkit-appearance: none; appearance: none; height: 100%; position: absolute; top: 0; left: 0; width: 100%;  }
+
+.form-submit { background: #094563; border: none; color: #fff; cursor: pointer; margin-top: 10px; padding: 10px; text-transform: uppercase; width: 100%; }
+
+.error { background: #ff8696; color: #831827; }
+.valid { background: #86ffc2; color: #188326; }
+
+/* CARD */
+.card { perspective: 1000; position: relative; left: 0; transform: translateX(0); width: 340px; }
+.card:hover .card-flip { transform: rotateY(180deg) }
+
+.card-front,
+.card-back {
+  height: 200px;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  background: #931497;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 340px;
+}
+
+.card-flip { transition: 0.6s; transform-style: preserve-3d; position: relative; }
+.card-flag { background-repeat: no-repeat; position: absolute; top: 9px; right: 20px; width: 60px; height: 30px; position: absolute; top: 17px; right: 20px; width: 46px; }
+
+.card-front { z-index: 2; transform: rotateY(0deg); }
+.card-back { transform: rotateY(180deg); }
+.card-back .card-flag { top: 155px; }
+
+.visa { background-image: url("./sprite.png");  background-position: 0 0; }
+.mastercard { background-image: url("./sprite.png");  background-position: 0 -30px; }
+.amex { background-image: url("./sprite.png"); background-position: 0 -60px; }
+.diners { background-image: url("./sprite.png"); background-position: 0 -90px; }
+.unknown { background-image: url("./sprite.png"); background-position: 0 -640px; }
+
+.card-text { background: none; border: none; }
+
+.card-chip {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  top: 50%;
+  left: 20px;
+  margin-top: -20px;
+  background: #d1e9f5 ;
+  border-radius: 8px;
+}
+.card-chip:before {
+  border-radius: 4px;
+  height: 100%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.card-strip { background: #1a1a1a; position: absolute; width: 100%; height: 50px; top: 30px; left: 0; }
+
+.card-label { display: block; font-size: 0.6rem; opacity: 0.5; margin-bottom: 4px; text-transform: uppercase; }
+
+.card-number { font-size: 1.2rem; position: absolute; margin: 0 auto; top: 140px; left: 20px; }
+.card-expiration { font-size: 1.5rem; margin: 0 auto; position: absolute; top: 140px; left: auto; right: 20px; text-transform: capitalize; text-align: right; }
+.card-securityCode {
+  background: #fff;
+  border-radius: 5px;
+  color: #000;
+  height: 35px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  text-align: right;
+  padding: 10px;
+  width: 91%;
+}
+.card-securityCode .card-label { margin: -25px 0 14px; color: #fff; }
+

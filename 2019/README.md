@@ -57,7 +57,7 @@
 |Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [Playing with array - Splice, Slice, ToString and Join](./day-37/) | `html` `css` `js`
 |Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [Pagination](./day-38/) | `html` `css` `js`
 |Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./day-39/) | `html` `css` `js`
-|Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | Credicard validator (./day-40/) | `html` `css` `js`
+|Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [Detect and validate credit card numbers](./day-40/) | `html` `css` `js`
 |Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | Playing with array - Includes, IndexOf, LastIndexOf, Find and FindIndex (./day-41/) | `html` `css` `js`
 |Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | Cookies (./day-42/) | `html` `css` `js`
 |Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | Playing with array - Some, Every, Array.from and Array.of (./day-43/) | `html` `css` `js`

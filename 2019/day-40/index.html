@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 40</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 20px auto; max-width: 800px; text-align: center; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-40.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="payment">
+        <div class="item">
+          <div class="card">
+            <div class="card-flip">
+              <div class="card-front">
+                <div class="card-chip"></div>
+                <div class="card-flag" data-js="flagPreview"></div>
+                <div class="card-number card-text" data-js="numberPreview"></div>
+                <div class="card-name">
+                  <label class="card-label"></label>
+                  <div class="card-text" data-js="namePreview"></div>
+                </div>
+                <div class="card-expiration">
+                  <label class="card-label">Valid Dates</label>
+                  <div class="card-text" data-js="expirationPreview"></div>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="card-strip"></div>
+                <div class="card-flag" data-js="flagPreview"></div>
+                <div class="card-securityCode">
+                  <label class="card-label"></label>
+                  <div class="card-text" data-js="securityCodePreview"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <form class="form">
+            <fieldset class="form-fieldset">
+              <label for="field1" class="form-label">Card Number</label>
+              <input id="field1" type="text" class="form-field" data-js="formNumber" maxlength="16" />
+            </fieldset>
+            <fieldset class="form-fieldset">
+              <label for="field2" class="form-label">Name</label>
+              <input id="field2" type="text" class="form-field" data-js="formName" />
+            </fieldset>
+            <fieldset class="form-fieldset">
+              <label class="form-label">Expiration date</label>
+              <div class="wrapper">
+                <div class="form-select">
+                  <select class="form-select-tag" data-js="formMonth">
+                    <option></option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select>
+                </div>
+                <div class="form-select">
+                  <select class="form-select-tag" data-js="formYear">
+                    <option></option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="form-fieldset">
+              <label for="field4" class="form-label">Security Code</label>
+              <input id="field4" type="text" class="form-field" data-js="formSecurityCode" maxlength="3" />
+            </fieldset>
+            <button class="form-submit">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./day-40.js"></script>
+  </body>
+</html>
