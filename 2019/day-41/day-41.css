@@ -1,0 +1,37 @@
+.form,
+.input { height: 100%; opacity: 0; position: fixed; top: 0; left: 0; width: 100%; }
+
+.terminal { position: relative; padding: 4rem; }
+
+.prompt {
+  color: #1ff042;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
+
+.prompt:before { content: '> '; display: inline-block; }
+
+.prompt:after {
+  animation: _cursorBlink 1.25s steps(1) infinite;
+  background: #1ff042;
+  content: '';
+  display: inline-block;
+  height: 1em;
+  margin-left: 5px;
+  vertical-align: -0.15em;
+  width: 0.75em;
+}
+
+.example { font-size: 2rem; padding: 0; }
+
+@keyframes _cursorBlink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
