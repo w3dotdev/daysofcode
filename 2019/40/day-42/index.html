@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 42</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 20px auto; max-width: 992px; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-42.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="theme">
+        <ul class="theme-list">
+          <li class="theme-item"><button data-js="button" data-color="red" class="theme-button red"></button></li>
+          <li class="theme-item"><button data-js="button" data-color="blue" class="theme-button blue"></button></li>
+          <li class="theme-item"><button data-js="button" data-color="green" class="theme-button green"></button></li>
+          <li class="theme-item"><button data-js="button" data-color="yellow" class="theme-button yellow"></button></li>
+        </ul>
+      </div>
+
+      <form class="form">
+        <p class="form-group">
+          <label class="form-label">Name</label>
+          <input class="form-field" data-js="inpName" type="text">
+        </p>
+        <p class="form-group">
+          <label class="form-label">E-mail</label>
+          <input class="form-field" data-js="inpEmail" type="text" value="email@email.com">
+        </p>
+        <p class="form-group">
+          <label class="form-label">Password</label>
+          <div class="form-wrap">
+            <input class="form-field" data-js="inpPassword" type="password" value="day42">
+            <button class="form-button" type="button" data-js="changeInputType">show</button>
+          </div>
+        </p>
+        <p><button class="form-submit">save</button></p>
+      </form>
+
+      <h3 class="title">Cookies</h3>
+      <div class="cookies" data-js="cookies"></div>
+    </div>
+    <script src="./day-42.js"></script>
+  </body>
+</html>

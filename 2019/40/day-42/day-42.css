@@ -1,0 +1,25 @@
+.theme,
+.form { margin: 30px auto; width: 300px; }
+
+.theme-list { display: flex; flex-direction: row; }
+.theme-item { margin: 0 10px; }
+.theme-button { border: 4px dotted rgba(0, 0, 0, 0.4); border-radius: 50%; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); cursor: pointer; height: 50px; width: 50px; }
+
+.title { font-size: 1.4rem; margin: 30px 0 0; text-align: center; }
+
+.form-group { margin-bottom: 10px; }
+.form-wrap { display: flex; flex-direction: row; justify-content: space-between; }
+.form-label { color: #333; display: block; font-size: 1.4rem; line-height: 1; margin-bottom: 5px; }
+.form-field { border: 2px dotted rgba(0, 0, 0, 0.1); border-radius: 4px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); height: 35px; font-size: 1.2rem; padding: 0 10px; width: 100%; }
+
+.form-wrap .form-field { border-radius: 4px 0 0 4px; }
+.form-button { border: none; border-radius: 0 4px 4px 0; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); cursor: pointer; height: 35px; width: 70px; }
+
+.form-submit { background: rgba(0, 0, 0, 0.4); border: none; border-radius: 4px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); color: #fff; cursor: pointer; font-size: 1.2rem; height: 35px; margin-top: 30px; text-transform: uppercase; width: 100%; }
+
+.cookies { border: 4px dotted rgba(0, 0, 0, 0.4); border-radius: 4px; font-size: 1.8rem; margin: 10px auto; padding: 10px; text-align: center; width: 400px; }
+
+.red { background: #c51818; color: #640707; }
+.blue { background: #3f57c5; color: #0d1d63; }
+.green { background: #239c23; color: #054105; }
+.yellow { background: #ddcb29; color: #4e4705; }
