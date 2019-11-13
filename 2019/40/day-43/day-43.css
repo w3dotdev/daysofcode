@@ -1,0 +1,23 @@
+.list { display: flex; flex-direction: row; flex-flow: row wrap; justify-content: space-between; }
+
+.item { background-color: #fff; border-radius: 4px; margin-bottom: 65px; width: 16%; }
+
+.item-media { height: 120px; padding: 0 0 10px; position: relative; width: 100%; }
+
+.item-media-image { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); height: 120px; position: relative; width: 100%; }
+
+.item-media-tag {
+  background: #501375;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .4px;
+  padding: 5px 8px;
+  position: absolute;
+  right: 10px;
+  text-transform: uppercase;
+  bottom: -10px;
+}
+
+.item-title { color: #222; display: inline-block; font-size: 1.8rem; margin: 10px; }
