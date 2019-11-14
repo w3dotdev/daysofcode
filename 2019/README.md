@@ -62,8 +62,8 @@
 |Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | [Managing Browser Cookies](./40/day-42/) | `html` `css` `js`
 |Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [Playing with array - Some, Every, Array.from, Array.of and Array.isArray](./40/day-43/) | `html` `css` `js`
 |Day 44 | <img src="thumbnails/day-44.jpg" width="100"> | [Simple Calculator](./40/day-44/) | `html` `css` `js`
-|Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | NodeJS - Server-side JavaScript (./40/day-45/) | `html` `css` `js`
-|Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | Playing with array - Entries, copyWithin, fill and reduceRight (./40/day-46/) | `html` `css` `js`
+|Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [Playing with array - Entries, copyWithin, fill and reduceRight](./40/day-45/) | `html` `css` `js`
+|Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | NodeJS - Server-side JavaScript (./40/day-46/) | `html` `css` `js`
 |Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | Data Structures in JS: Primitives (./40/day-47/) | `html` `css` `js`
 |Day 48 | <img src="thumbnails/day-48.jpg" width="100"> | Data Structures in JS: Array (./40/day-48/) | `html` `css` `js`
 |Day 49 | <img src="thumbnails/day-49.jpg" width="100"> | Data Structures in JS: Stacks (./40/day-49/) | `html` `css` `js`
