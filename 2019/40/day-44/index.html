@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 44</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day-44.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <ul data-js="results" class="items"></ul>
+        <div class="calculator">
+          <div data-js="display" class="display">0</div>
+          <div class="buttons">
+            <div class="row">
+              <button data-js="clear" class="button dark" value="C/E" >C/E</button>
+              <button data-js="backspace" class="button dark" value="&larr;" >&larr;</button>
+              <button data-js="plusMinus" class="button" value="-/+" >-/+</button>
+              <button data-js="operator" class="button" value="/" >&divide;</button>
+            </div>
+            <div class="row">
+              <button data-js="int" class="button" value="7" >7</button>
+              <button data-js="int" class="button" value="8" >8</button>
+              <button data-js="int" class="button" value="9" >9</button>
+              <button data-js="operator" class="button" value="*" >&times;</button>
+            </div>
+            <div class="row">
+              <button data-js="int" class="button" value="4" >4</button>
+              <button data-js="int" class="button" value="5" >5</button>
+              <button data-js="int" class="button" value="6" >6</button>
+              <button data-js="operator" class="button" value="-" >-</button>
+            </div>
+            <div class="row">
+              <button data-js="int" class="button" value="1" >1</button>
+              <button data-js="int" class="button" value="2" >2</button>
+              <button data-js="int" class="button" value="3" >3</button>
+              <button data-js="operator" class="button" value="+" >+</button>
+            </div>
+            <div class="row">
+              <button data-js="int" class="button zero" value="0" >0</button>
+              <button data-js="decimal" class="button" value="." >.</button>
+              <button data-js="equal" class="button equal" value="=" >=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./day-44.js"></script>
+  </body>
+</html>
