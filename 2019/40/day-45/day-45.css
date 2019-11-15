@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+
+.title {
+  font-family: 'Calistoga', cursive;
+  font-size: 7rem;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-shadow:
+    0.1rem 0.2rem rgba(0, 0, 0, 1),
+    0.5rem -0.3rem 0 rgba(0, 0, 0, 1),
+    0.5rem 0.5rem 0 rgba(0, 0, 0, 1),
+    0 0.8rem 0 rgba(0, 0, 0, 1),
+    0.5rem 0.8rem 0 rgba(0, 0, 0, 1),
+    0 -0.3rem 0 rgba(0, 0, 0, 1),
+    -0.3rem -0.3rem 0 rgba(0, 0, 0, 1),
+    -0.3rem 0.8rem 0 rgba(0, 0, 0, 1),
+    -0.3rem 0 0 rgba(0, 0, 0, 1);
+}
+
+.title:before { content: 'Series'; display: block; font-size: 2rem; }
+
+.title-hl {
+  animation: _effect 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+  display: inline-block;
+}
+
+.status {
+  font-family: 'Calistoga', cursive;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 1);
+}
+
+.status:before { content: 'Status: '; display: inline-block; font-size: 2rem; margin-right: 20px;  }
+
+@keyframes _effect {
+  0% { transform: scale(0.9); }
+  80%,
+  100% { color: #fdffa1; transform: scale(1.4) rotateZ(-3deg); }
+}
+
+/* Fireworks */
+/* Created by Poychang - https://gist.github.com/poychang/fb1e8878f68a47e57d54627c18e739c7 */
+.pyro > .before,
+.pyro > .after {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+}
+
+.pyro > .after {
+  animation-delay: 1.25s, 1.25s, 1.25s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+
+@keyframes bang {
+  to {
+    box-shadow: 40px -162.6666666667px #006fff, 70px -95.6666666667px #ff0059, -216px -147.6666666667px #ff7b00, -205px -73.6666666667px #44ff00, -175px -188.6666666667px #00ff0d, 45px -18.6666666667px #00ff51, 14px -188.6666666667px #ff9500, -163px -77.6666666667px #ff7300, 190px -51.6666666667px #99ff00, -210px 58.3333333333px #00fbff, 46px -372.6666666667px #00ff44, -242px -171.6666666667px #00ff04, 12px -235.6666666667px #ffea00, 150px 16.3333333333px #001aff, -213px -338.6666666667px #00fff7, -141px -242.6666666667px #4d00ff, 210px 12.3333333333px #00ff88, 178px -240.6666666667px #8800ff, -95px -308.6666666667px #ff00b3, 10px -262.6666666667px #99ff00, -121px -261.6666666667px #ffdd00, -245px -275.6666666667px #ff00e1, 224px -200.6666666667px #a2ff00, -246px -342.6666666667px #00ff44, -243px 31.3333333333px #e600ff, -55px -387.6666666667px #ee00ff, 160px -30.6666666667px #00ff77, 197px -138.6666666667px #d9ff00, -228px -65.6666666667px #ff0040, 35px -7.6666666667px #00ff5e, 39px -24.6666666667px #00ff62, 173px -123.6666666667px #00ff40, 221px -164.6666666667px #2f00ff, -182px -243.6666666667px #51ff00, -237px -271.6666666667px #ff2200, -124px -343.6666666667px #59ff00, -88px -255.6666666667px #ffa200, -6px -284.6666666667px #ff0091, 164px -65.6666666667px #ff0900, 223px 69.3333333333px #ff004d, -241px -146.6666666667px #7bff00, -244px -97.6666666667px #00ff1e, 77px 75.3333333333px #ff0400, 128px -203.6666666667px #001aff, 25px -15.6666666667px #00ffb3, 196px -309.6666666667px #00d0ff, 173px -231.6666666667px #00f2ff, 173px -412.6666666667px #4800ff, -46px -397.6666666667px #ff0400, 111px -187.6666666667px #0055ff, -148px -212.6666666667px #00ff88;
+  }
+}
+
+@keyframes gravity {
+  to { transform: translateY(200px); opacity: 0; }
+}
+
+@keyframes position {
+  0%, 19.9% { margin-top: 10%; margin-left: 40%; }
+  20%, 39.9% { margin-top: 40%; margin-left: 30%; }
+  40%, 59.9% { margin-top: 20%; margin-left: 70%; }
+  60%, 79.9% { margin-top: 30%; margin-left: 20%; }
+  80%, 99.9% { margin-top: 30%; margin-left: 80%; }
+}
