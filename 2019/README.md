@@ -64,7 +64,7 @@
 |Day 44 | <img src="thumbnails/day-44.jpg" width="100"> | [Simple Calculator](./40/day-44/) | `html` `css` `js`
 |Day 45 | <img src="thumbnails/day-45.jpg" width="100"> | [Playing with array - Keys, Values, Entries, CopyWithin, Fill and ReduceRight](./40/day-45/) | `html` `css` `js`
 |Day 46 | <img src="thumbnails/day-46.jpg" width="100"> | [CRUD API with Node.js](./40/day-46/) | `js`
-|Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | Data Structures in JS: Primitives (./40/day-47/) | `html` `css` `js`
+|Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | [Data Structures in JS: Data Types](./40/day-47/) | `html` `css` `js`
 |Day 48 | <img src="thumbnails/day-48.jpg" width="100"> | Data Structures in JS: Array (./40/day-48/) | `html` `css` `js`
 |Day 49 | <img src="thumbnails/day-49.jpg" width="100"> | Data Structures in JS: Stacks (./40/day-49/) | `html` `css` `js`
 |Day 50 | <img src="thumbnails/day-50.jpg" width="100"> | Data Structures in JS: Queue ?& Priority Queue (./40/day-50/) | `html` `css` `js`
