@@ -67,7 +67,7 @@
 |Day 47 | <img src="thumbnails/day-47.jpg" width="100"> | [Data Structures in JS: Data Types](./40/day-47/) | `markdown` `js`
 |Day 48 | <img src="thumbnails/day-48.jpg" width="100"> | [Data Structures in JS: Arrays & Objects](./40/day-48/) | `markdown` `js`
 |Day 49 | <img src="thumbnails/day-49.jpg" width="100"> | [Data Structures in JS: Stacks](./40/day-49/) | `markdown` `js`
-|Day 50 | <img src="thumbnails/day-50.jpg" width="100"> | Data Structures in JS: Queue ?& Priority Queue (./40/day-50/) | `markdown` `js`
+|Day 50 | <img src="thumbnails/day-50.jpg" width="100"> | [Data Structures in JS: Queues & Deques](./40/day-50/) | `markdown` `js`
 |Day 51 | <img src="thumbnails/day-51.jpg" width="100"> | Data Structures in JS: Linked List (./50/day-51/) | `markdown` `js`
 |Day 52 | <img src="thumbnails/day-52.jpg" width="100"> | Data Structures in JS: Sets (./50/day-52/) | `markdown` `js`
 |Day 53 | <img src="thumbnails/day-53.jpg" width="100"> | Data Structures in JS: Hash Table (./50/day-53/) | `markdown` `js`
