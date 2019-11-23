@@ -70,13 +70,13 @@
 |Day 50 | <img src="thumbnails/day-50.jpg" width="100"> | [Data Structures in JS: Queues & Deques](./40/day-50/) | `markdown` `js`
 |Day 51 | <img src="thumbnails/day-51.jpg" width="100"> | [Data Structures in JS: Linked List](./50/day-51/) | `markdown` `js`
 |Day 52 | <img src="thumbnails/day-52.jpg" width="100"> | [Data Structures in JS: Sets](./50/day-52/) | `markdown` `js`
-|Day 53 | <img src="thumbnails/day-53.jpg" width="100"> | [Data Structures in JS: Dictionary & Hash Table](./50/day-53/) | `markdown` `js`
-|Day 54 | <img src="thumbnails/day-54.jpg" width="100"> | Data Structures in JS: Trie (./50/day-54/) | `markdown` `js`
-|Day 55 | <img src="thumbnails/day-55.jpg" width="100"> | Data Structures in JS: Tree (Binary Search Tree, AVL Tree) (./50/day-55/) | `markdown` `js`
+|Day 53 | <img src="thumbnails/day-53.jpg" width="100"> | [Data Structures in JS: Maps & Hash Tables](./50/day-53/) | `markdown` `js`
+|Day 54 | <img src="thumbnails/day-54.jpg" width="100"> | [Data Structures in JS: Trees & (BT, BST & AVL Trees)](./50/day-54/) | `markdown` `js`
+|Day 55 | <img src="thumbnails/day-55.jpg" width="100"> | Data Structures in JS: Tries  (./50/day-55/) | `markdown` `js`
 |Day 56 | <img src="thumbnails/day-56.jpg" width="100"> | Data Structures in JS: Heap (./50/day-56/) | `markdown` `js`
 |Day 57 | <img src="thumbnails/day-57.jpg" width="100"> | Data Structures in JS: Graph (both directed and undirected) (./50/day-57/) | `markdown` `js`
 |Day 58 | <img src="thumbnails/day-58.jpg" width="100"> | Algorithms in JS: Sorting (./50/day-58/) | `html` `css` `js`
-|Day 59 | <img src="thumbnails/day-59.jpg" width="100"> | Algorithms in JS: Searching (./50/day-59/) | `html` `css` `js`
+|Day 59 | <img src="thumbnails/day-59.jpg" width="100"> | Algorithms in JS: Searching (./50/day-59/) | `html` `css` `js`p
 |Day 60 | <img src="thumbnails/day-60.jpg" width="100"> | Algorithms in JS: Designs (./50/day-60/) | `html` `css` `js`
 
 ### Libraries & Frameworks
