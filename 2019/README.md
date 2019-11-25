@@ -48,16 +48,16 @@
 
 || Preview |||
 |:-------------- |:--------------:| :--------------| :--------------|
-|Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./30day-31/) | `html` `css` `js`
-|Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./30day-32/) | `html` `css` `svg` `js`
-|Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./30day-33/) | `html` `css` `js`
-|Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./30day-34/) | `html` `css` `js`
-|Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./30day-35/) | `html` `css` `js`
-|Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./30day-36/) | `html` `css` `js`
-|Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [Playing with array - Splice, Slice, ToString and Join](./30day-37/) | `html` `css` `js`
-|Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [Pagination](./30day-38/) | `html` `css` `js`
-|Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./30day-39/) | `html` `css` `js`
-|Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [Detect and validate credit card numbers](./30day-40/) | `html` `css` `js`
+|Day 31 | <img src="thumbnails/day-31.jpg" width="100"> | [Creating a pyramid](./30/day-31/) | `html` `css` `js`
+|Day 32 | <img src="thumbnails/day-32.jpg" width="100"> | [Interactive workstation](./30/day-32/) | `html` `css` `svg` `js`
+|Day 33 | <img src="thumbnails/day-33.jpg" width="100"> | [Combining Filter, Map and Reduce](./30/day-33/) | `html` `css` `js`
+|Day 34 | <img src="thumbnails/day-34.jpg" width="100"> | [Fibonacci Sequence](./30/day-34/) | `html` `css` `js`
+|Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./30/day-35/) | `html` `css` `js`
+|Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./30/day-36/) | `html` `css` `js`
+|Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [Playing with array - Splice, Slice, ToString and Join](./30/day-37/) | `html` `css` `js`
+|Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [Pagination](./30/day-38/) | `html` `css` `js`
+|Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./30/day-39/) | `html` `css` `js`
+|Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [Detect and validate credit card numbers](./30/day-40/) | `html` `css` `js`
 |Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [Playing with array - Includes, IndexOf, LastIndexOf, Find and FindIndex](./40/day-41/) | `html` `css` `js`
 |Day 42 | <img src="thumbnails/day-42.jpg" width="100"> | [Managing Browser Cookies](./40/day-42/) | `html` `css` `js`
 |Day 43 | <img src="thumbnails/day-43.jpg" width="100"> | [Playing with array - Some, Every, Array.from, Array.of and Array.isArray](./40/day-43/) | `html` `css` `js`
@@ -72,7 +72,7 @@
 |Day 52 | <img src="thumbnails/day-52.jpg" width="100"> | [Data Structures in JS: Sets](./50/day-52/) | `markdown` `js`
 |Day 53 | <img src="thumbnails/day-53.jpg" width="100"> | [Data Structures in JS: Maps & Hash Tables](./50/day-53/) | `markdown` `js`
 |Day 54 | <img src="thumbnails/day-54.jpg" width="100"> | [Data Structures in JS: Trees & (BT, BST & AVL Trees)](./50/day-54/) | `markdown` `js`
-|Day 55 | <img src="thumbnails/day-55.jpg" width="100"> | Data Structures in JS: Tries  (./50/day-55/) | `markdown` `js`
+|Day 55 | <img src="thumbnails/day-55.jpg" width="100"> | [Data Structures in JS: Tries](./50/day-55/) | `markdown` `js`
 |Day 56 | <img src="thumbnails/day-56.jpg" width="100"> | Data Structures in JS: Heap (./50/day-56/) | `markdown` `js`
 |Day 57 | <img src="thumbnails/day-57.jpg" width="100"> | Data Structures in JS: Graph (both directed and undirected) (./50/day-57/) | `markdown` `js`
 |Day 58 | <img src="thumbnails/day-58.jpg" width="100"> | Algorithms in JS: Sorting (./50/day-58/) | `html` `css` `js`
