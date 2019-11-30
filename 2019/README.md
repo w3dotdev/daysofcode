@@ -77,7 +77,7 @@
 |Day 57 | <img src="thumbnails/day-57.jpg" width="100"> | [Data Structures in JS: Graph](./50/day-57/) | `markdown` `js`
 |Day 58 | <img src="thumbnails/day-58.jpg" width="100"> | [Algorithms in JS: Sorting](./50/day-58/) | `js`
 |Day 59 | <img src="thumbnails/day-59.jpg" width="100"> | [Algorithms in JS: Searching](./50/day-59/) | `js`
-|Day 60 | <img src="thumbnails/day-60.jpg" width="100"> | Algorithms in JS: Designs (./50/day-60/) | `js`
+|Day 60 | <img src="thumbnails/day-60.jpg" width="100"> | [Algorithms in JS: Design Techniques](./50/day-60/) | `markdown`
 
 ### Libraries & Frameworks
 
@@ -110,9 +110,9 @@
 |Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | Angular (./80/day-85/) |
 |Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | Vue (./80/day-86/) |
 |Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | React (./80/day-87/) |
-|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning 1 (./80/day-88/) |
-|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning 2 (./80/day-89/) |
-|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning 3 (./80/day-90/) |
+|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | GraphQl (./80/day-88/) |
+|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning 1 (./80/day-89/) |
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning 2 (./80/day-90/) |
 
 ### 
 
