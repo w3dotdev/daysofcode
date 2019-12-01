@@ -1,0 +1,15 @@
+{
+  "name": "day-62",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine --config=jasmine.json --random=false"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "3.5.0",
+    "jasmine-spec-reporter": "4.2.1"
+  }
+}

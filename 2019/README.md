@@ -84,35 +84,35 @@
 || Preview |||
 |:-------------- |:--------------:| :--------------| :--------------|
 |Day 61 | <img src="thumbnails/day-61.jpg" width="100"> | [MochaJS](./60/day-61/) | `js`
-|Day 62 | <img src="thumbnails/day-62.jpg" width="100"> | Jasmine (./60/day-62/) |
-|Day 63 | <img src="thumbnails/day-63.jpg" width="100"> | AVA (./60/day-63/) |
-|Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | Jest (./60/day-64/) |
-|Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | ChaiJS and SinonJS (./60/day-65/) |
-|Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | Karma (./60/day-66/) |
-|Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | Nightwatch (./60/day-67/) |
-|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | Three.js (./60/day-68/) |
-|Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | Anime.js (./60/day-69/) |
-|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | Mo.js (./60/day-70/) |
-|Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | Velocity (./70/day-71/) |
-|Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | Popmotion (./70/day-72/) |
-|Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | D3.js (./70/day-73/) |
-|Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | Google Charts (./70/day-74/) |
-|Day 75 | <img src="thumbnails/day-75.jpg" width="100"> | ChartJS (./70/day-75/) |
-|Day 76 | <img src="thumbnails/day-76.jpg" width="100"> | Mustache.js (./70/day-76/) |
-|Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | JQuery (./70/day-77/) |
-|Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | DojoJS (./70/day-78/) |
-|Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | Ext.JS (./70/day-79/) |
-|Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | TaffyDB (./70/day-80/) |
-|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | MeteorJS (./80/day-81/) |
-|Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | Polymer (./80/day-82/) |
-|Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | Gatsby (./80/day-83/) |
-|Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | Aurelia (./80/day-84/) |
-|Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | Angular (./80/day-85/) |
-|Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | Vue (./80/day-86/) |
-|Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | React (./80/day-87/) |
-|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | GraphQl (./80/day-88/) |
-|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning 1 (./80/day-89/) |
-|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning 2 (./80/day-90/) |
+|Day 62 | <img src="thumbnails/day-62.jpg" width="100"> | [Jasmine](./60/day-62/) | `js`
+|Day 63 | <img src="thumbnails/day-63.jpg" width="100"> | AVA (./60/day-63/) | `js`
+|Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | Jest (./60/day-64/) | `js`
+|Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | ChaiJS and SinonJS (./60/day-65/) | `js`
+|Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | Nightwatch (./60/day-66/) |
+|Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | Three.js (./60/day-67/) |
+|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | Anime.js (./60/day-68/) |
+|Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | Mo.js (./60/day-69/) |
+|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | Velocity (./60/day-70/) |
+|Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | Popmotion (./70/day-71/) |
+|Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | D3.js (./70/day-72/) |
+|Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | Google Charts (./70/day-73/) |
+|Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | ChartJS (./70/day-74/) |
+|Day 75 | <img src="thumbnails/day-75.jpg" width="100"> | Mustache.js (./70/day-75/) |
+|Day 76 | <img src="thumbnails/day-76.jpg" width="100"> | JQuery (./70/day-76/) |
+|Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | DojoJS (./70/day-77/) |
+|Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | Ext.JS (./70/day-78/) |
+|Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | TaffyDB (./70/day-79/) |
+|Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | MeteorJS (./70/day-80/) |
+|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | Polymer (./80/day-81/) |
+|Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | Gatsby (./80/day-82/) |
+|Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | Aurelia (./80/day-83/) |
+|Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | Angular (./80/day-84/) |
+|Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | Vue (./80/day-85/) |
+|Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | React (./80/day-86/) |
+|Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | GraphQl (./80/day-87/) |
+|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning 1 (./80/day-88/) |
+|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning 2 (./80/day-89/) |
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning 3 (./80/day-90/) |
 
 ### 
 

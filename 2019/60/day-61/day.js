@@ -7,7 +7,7 @@ const assert = require('assert'); // https://nodejs.org/api/assert.html
 const thousandsFormatter = require('./numbers');
 
 /** @test {} */
-suite('TDD', () => {
+suite('TDD - Phase 1 - tests should fail', () => {
   test('should only allow type number', () => {
     const num = 2;
     const str = '-2';
@@ -27,9 +27,9 @@ suite('TDD', () => {
   });
 
   test('should shorten the return of the big numbers', () => {
-    const thousand  = 1000;
-    const million   = 1000000;
-    const billion   = 1000000000;
+    const thousand = 1000;
+    const million  = 1000000;
+    const billion  = 1000000000;
 
     assert.ok(500 < thousand, 'not changed');
     assert.ok(5000 > thousand, 'received the letter K');
@@ -49,9 +49,10 @@ describe('BDD', () => {
   });
 
   context('when parameters are valid', () => {
-    it('should allow positive and negative numbers', () => {
+    it('should return with type number or string', () => {
       assert.equal(thousandsFormatter(10), 10);
       assert.equal(thousandsFormatter(-10), '-10');
+      assert.equal(thousandsFormatter(5000000), '5M');
     });
 
     it('should shorten the return of the big numbers', () => {

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hemersonvianna/daysofcode/issues"
   },
-  "homepage": "https://github.com/hemersonvianna/daysofcode#readme"
+  "homepage": "https://github.com/hemersonvianna/daysofcode#readme",
+  "devDependencies": {
+    "jasmine": "3.5.0"
+  }
 }
