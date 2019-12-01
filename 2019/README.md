@@ -83,7 +83,7 @@
 
 || Preview |||
 |:-------------- |:--------------:| :--------------| :--------------|
-|Day 61 | <img src="thumbnails/day-61.jpg" width="100"> | MochaJS (./60/day-61/) |
+|Day 61 | <img src="thumbnails/day-61.jpg" width="100"> | [MochaJS](./60/day-61/) | `js`
 |Day 62 | <img src="thumbnails/day-62.jpg" width="100"> | Jasmine (./60/day-62/) |
 |Day 63 | <img src="thumbnails/day-63.jpg" width="100"> | AVA (./60/day-63/) |
 |Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | Jest (./60/day-64/) |
