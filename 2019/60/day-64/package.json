@@ -1,0 +1,20 @@
+{
+  "name": "day-64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "jest": {
+    "coverageDirectory": "coverage",
+    "testEnvironment": "jsdom",
+    "testRegex": "day.js",
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "24.9.0"
+  }
+}

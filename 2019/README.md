@@ -86,7 +86,7 @@
 |Day 61 | <img src="thumbnails/day-61.jpg" width="100"> | [MochaJS](./60/day-61/) | `js`
 |Day 62 | <img src="thumbnails/day-62.jpg" width="100"> | [Jasmine](./60/day-62/) | `js`
 |Day 63 | <img src="thumbnails/day-63.jpg" width="100"> | [AVA](./60/day-63/) | `js`
-|Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | Jest (./60/day-64/) | `js`
+|Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | [Jest](./60/day-64/) | `js`
 |Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | ChaiJS and SinonJS (./60/day-65/) | `js`
 |Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | Nightwatch (./60/day-66/) |
 |Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | Three.js (./60/day-67/) |
