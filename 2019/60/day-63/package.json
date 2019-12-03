@@ -1,0 +1,20 @@
+{
+  "name": "day-63",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava"
+  },
+  "ava": {
+    "files": [
+      "day.js"
+    ],
+    "verbose": true
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "2.4.0"
+  }
+}
