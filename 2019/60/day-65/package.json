@@ -1,0 +1,28 @@
+{
+  "name": "day-65",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "babel-loader": "8.0.6",
+    "chai": "4.2.0",
+    "karma": "4.4.1",
+    "karma-chai-plugins": "0.9.0",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-coverage": "2.0.1",
+    "karma-mocha": "1.3.0",
+    "karma-sinon": "1.0.5",
+    "karma-webpack": "4.0.2",
+    "mocha": "6.2.2",
+    "puppeteer": "2.0.0",
+    "sinon": "7.5.0",
+    "webpack": "4.41.2"
+  }
+}
