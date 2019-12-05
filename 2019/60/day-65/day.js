@@ -1,3 +1,12 @@
+// Karma - Spectacular Test Runner for Javascript
+// https://karma-runner.github.io/latest/index.html
+
+// Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+// https://www.chaijs.com/
+
+// Standalone test spies, stubs and mocks for JavaScript. Works with any unit testing framework.
+// https://sinonjs.org/
+
 import Cart from './cart';
 
 const jsonOk = body => {

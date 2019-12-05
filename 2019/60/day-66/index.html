@@ -4,20 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 51</title>
+    <title>Day 66</title>
     <style>
       *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
       html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { margin: 20px auto; max-width: 992px; width: 100%; }
+
+      .title { font-size: 5rem; }
     </style>
-    <link rel="stylesheet" type="text/css" href="./day.css">
+    <link rel="stylesheet" type="text/css" href="./day-42.css">
   </head>
   <body>
     <div class="container">
-    </div>
-    <script src="./day.js"></script>
+      <form class="form">
+        <p class="form-group">
+          <label class="form-label">Usuário</label>
+          <input class="form-field" name="username" type="text">
+        </p>
+        <p class="form-group">
+          <label class="form-label">Password</label>
+          <input class="form-field" name="password" type="password">
+        </p>
+        <p><button class="form-submit" type="submit">Entrar</button></p>
+      </form>
+      <script>
+        document.querySelector('form').addEventListener("submit", evt => {
+          const form = document.forms[0];
+          const username = form.querySelector('input[name="username"]').value;
+          const password = form.querySelector('input[name="password"]').value;
+
+          if (username === 'admin' && password === 'admin') {
+            document.querySelector('.container').innerHTML = `<h1 class="title">Olá</h1>`;
+          }
+        });
+      </script>
   </body>
 </html>
