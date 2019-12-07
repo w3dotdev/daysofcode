@@ -2,7 +2,7 @@
 // Prerequisites
 // NodeJS - https://nodejs.org/en/
 //
-// cd 2019/60/day-66/ && npm start
+// cd 2019/60/day-67/ && npm start
 const http = require('http');
 const fs = require('fs');
 const path = require('path');

@@ -1,0 +1,15 @@
+{
+  "name": "day-67",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "three": "0.111.0",
+    "three-orbitcontrols": "2.110.1"
+  }
+}
