@@ -90,7 +90,7 @@
 |Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | [Karma, Chai and Sinon](./60/day-65/) | `js`
 |Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | [Nightwatch](./60/day-66/) | `js`
 |Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | [Three.js](./60/day-67/) | `js`
-|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | Anime.js (./60/day-68/) |
+|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | [Anime.js](./60/day-68/) |
 |Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | Mo.js (./60/day-69/) |
 |Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | Velocity (./60/day-70/) |
 |Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | Popmotion (./70/day-71/) |

@@ -4,20 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 51</title>
+    <title>Day 68</title>
     <style>
       *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
       html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { margin: 60px auto; max-width: 992px; text-align: center; width: 100%; }
+
+      .item { cursor: pointer; fill: none; stroke: #ccc; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .active { stroke: #feffca; stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; }
     </style>
-    <link rel="stylesheet" type="text/css" href="./day.css">
   </head>
   <body>
     <div class="container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+        <path fill="#333" d="M445.3,121.9v346.9h-84.4V324H229.4v144.7h-83.9V121.9h83.9v134.4h131.5V121.9H445.3z"/>
+        <path class="item" d="M148.3 133.1c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_0"/>
+        <path class="item" d="M227.6 133.1c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_1"/>
+        <path class="item" d="M227.6 262.9c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_2"/>
+        <path class="item" d="M360.4 267.9c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_3"/>
+        <path class="item" d="M363.4 134.1c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_4"/>
+        <path class="item" d="M444 134.1c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_5"/>
+        <path class="item" d="M444 299c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_6"/>
+        <path class="item" d="M444 478.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_7"/>
+        <path class="item" d="M363.4 478.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_8"/>
+        <path class="item" d="M361.4 334.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_9"/>
+        <path class="item" d="M229.6 334.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_10"/>
+        <path class="item" d="M227.6 478.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_11"/>
+        <path class="item" d="M146.3 478.7c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_12"/>
+        <path class="item" d="M146.3 299c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" id="item_13"/>
+        <path class="active" d="M148.3 133.1c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10zm0-10z" data-active="item_0"/>
+      </svg>
     </div>
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
     <script src="./day.js"></script>
   </body>
 </html>
