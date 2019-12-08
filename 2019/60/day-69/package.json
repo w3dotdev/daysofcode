@@ -1,0 +1,11 @@
+{
+  "name": "day-69",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "dependencies": {
+    "@mojs/core": "0.288.2"
+  }
+}
