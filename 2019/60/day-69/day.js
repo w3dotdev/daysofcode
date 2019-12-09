@@ -1,3 +1,5 @@
+// The motion graphics toolbelt for the web
+// https://github.com/mojs/mojs
 class Game {
   constructor(props) {
     this.$game = props.$game;

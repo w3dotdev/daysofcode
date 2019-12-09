@@ -89,10 +89,10 @@
 |Day 64 | <img src="thumbnails/day-64.jpg" width="100"> | [Jest](./60/day-64/) | `js`
 |Day 65 | <img src="thumbnails/day-65.jpg" width="100"> | [Karma, Chai and Sinon](./60/day-65/) | `js`
 |Day 66 | <img src="thumbnails/day-66.jpg" width="100"> | [Nightwatch](./60/day-66/) | `js`
-|Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | [Three.js](./60/day-67/) | `js`
-|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | [Anime.js](./60/day-68/) |
-|Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | [Mo.js](./60/day-69/) |
-|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | Velocity (./60/day-70/) |
+|Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | [Three.js](./60/day-67/) | `html` `js`
+|Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | [Anime.js](./60/day-68/) | `html` `css` `js`
+|Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | [Mo.js](./60/day-69/) | `html` `css` `js`
+|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | [Velocity](./60/day-70/) |
 |Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | Popmotion (./70/day-71/) |
 |Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | D3.js (./70/day-72/) |
 |Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | Google Charts (./70/day-73/) |
