@@ -92,8 +92,8 @@
 |Day 67 | <img src="thumbnails/day-67.jpg" width="100"> | [Three.js](./60/day-67/) | `html` `js`
 |Day 68 | <img src="thumbnails/day-68.jpg" width="100"> | [Anime.js](./60/day-68/) | `html` `css` `js`
 |Day 69 | <img src="thumbnails/day-69.jpg" width="100"> | [Mo.js](./60/day-69/) | `html` `css` `js`
-|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | [Velocity](./60/day-70/) |
-|Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | Popmotion (./70/day-71/) |
+|Day 70 | <img src="thumbnails/day-70.jpg" width="100"> | [Velocity](./60/day-70/) | `html` `css` `js`
+|Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | [Popmotion](./70/day-71/) | `html` `js` `svg`
 |Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | D3.js (./70/day-72/) |
 |Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | Google Charts (./70/day-73/) |
 |Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | ChartJS (./70/day-74/) |
