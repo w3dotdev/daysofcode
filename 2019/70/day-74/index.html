@@ -4,20 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 51</title>
+    <title>Day 74</title>
     <style>
       *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
       html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { margin: 60px auto; max-width: 992px; position: relative; width: 100%; }
     </style>
     <link rel="stylesheet" type="text/css" href="./day.css">
   </head>
   <body>
     <div class="container">
+      <aside class="sideBar">
+        <div class="card">
+          <img class="card-image" src="https://nerdcalistenico.com.br/assets/img/site/global/hemerson-vianna.jpg" alt="">
+          <div class="card-info">
+            <h3 class="card-title">Hemerson Vianna</h3>
+            <p class="card-description">Aquela pessoa que você não conhece.</p>
+          </div>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="#">Item 1</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Item 2</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Item 3</a></li>
+        </ul>
+        <br><br><br><br>
+        <div class="charts-item charts-item--full">
+          <div class="chart chart--nocolor">
+            <canvas data-js="chart4" width="100%"></canvas>
+          </div>
+        </div>
+      </aside>
+      <section class="content">
+        <nav class="navBar"></nav>
+        <section class="charts">
+          <div class="charts-item">
+            <h3 class="charts-item-title">Tarefas</h3>
+            <div class="chart">
+              <canvas data-js="chart1"></canvas>
+            </div>
+          </div>
+          <div class="charts-item">
+            <h3 class="charts-item-title">Github</h3>
+            <div class="chart">
+              <canvas data-js="chart2"></canvas>
+            </div>
+          </div>
+        </section>
+        <div class="charts-item charts-item--full">
+          <h3 class="charts-item-title">Editor</h3>
+          <div class="chart">
+            <canvas data-js="chart3" width="100%"></canvas>
+          </div>
+        </div>
+      </section>
     </div>
+    <script src="./node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <script src="./day.js"></script>
   </body>
 </html>

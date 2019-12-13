@@ -1,0 +1,61 @@
+::-webkit-scrollbar { background: transparent; height: 5px; width: 5px; }
+::-webkit-scrollbar-thumb { background-color: #888; }
+::-webkit-scrollbar-thumb:hover { background-color: rgba(0, 0, 0, 0.3); }
+
+.content { background-color: #06050e; margin-left: 290px; position: relative; transition: 0.3s; }
+.navBar { background-color: #131023; height: 50px; width:100%; }
+
+.sideBar {
+  height: 100%;
+  background-color: #18171d;
+  color: #fff;
+  overflow: auto;
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: 0.3s;
+  width: 290px;
+  z-index: 9;
+}
+/* CARD */
+.card { background-color: #18181d; border-bottom: 1px solid #302f38; overflow: hidden; padding: 15px 15px 15px 30px; }
+.card-image { border-radius: 4px; float: left; width: 25%; }
+.card-info { float: left; width: 69%; margin-left: 3%; }
+.card-title {
+  color: #eee;
+  font-weight: 100;
+  margin: 0 0 5px;
+  margin-top: 4px;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+}
+.card-description { color: #bbb; font-size: 13px; }
+/* MENU */
+.menu-item {
+  background-color: #1e1f23;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+  cursor: pointer;
+  overflow: hidden;
+  padding: 12px 30px;
+}
+.menu-item:hover { background: #000; }
+.menu-link { color: #aaa; display: block; font-size: 1.2rem; line-height: 1; position: relative; text-decoration: none; }
+.menu-link:after {
+  content: "+";
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: -1rem;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+/* CHARTS  */
+.charts { display: flex; flex-direction: row; flex-flow: wrap row; margin-top: 10px; margin-right: auto; margin-left: auto; }
+.charts-item { padding: 15px; width: 50%; }
+.charts-item--full { width: 100%; }
+.chart { background-color: #0d0c15; }
+.chart--nocolor { background: none; }
+.charts-item-title { font-size: 1.4rem; margin: 0 0 10px; }

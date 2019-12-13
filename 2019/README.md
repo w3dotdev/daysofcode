@@ -96,7 +96,7 @@
 |Day 71 | <img src="thumbnails/day-71.jpg" width="100"> | [Popmotion](./70/day-71/) | `html` `js` `svg`
 |Day 72 | <img src="thumbnails/day-72.jpg" width="100"> | [D3.js](./70/day-72/) | `html` `js` `svg`
 |Day 73 | <img src="thumbnails/day-73.jpg" width="100"> | [Google Charts](./70/day-73/) | `html` `js`
-|Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | ChartJS (./70/day-74/) |
+|Day 74 | <img src="thumbnails/day-74.jpg" width="100"> | [Chart.js](./70/day-74/) | `html` `css` `js` `canvas`
 |Day 75 | <img src="thumbnails/day-75.jpg" width="100"> | Mustache.js (./70/day-75/) |
 |Day 76 | <img src="thumbnails/day-76.jpg" width="100"> | JQuery (./70/day-76/) |
 |Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | DojoJS (./70/day-77/) |
