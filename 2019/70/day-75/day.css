@@ -1,0 +1,45 @@
+.main {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap row;
+  justify-content: flex-start;
+}
+
+.item {
+  border: 1px solid transparent;
+  height: 50px;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0.5%;
+  padding: 10px;;
+  position:relative;
+  width: 19%;
+}
+
+.add {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 0.5%;
+  padding: 10px 20px;
+}
+
+.add:active { background: #333; }
+
+.del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background:#000;
+  border: none;
+  color:#fff;
+  cursor: pointer;
+  height: 48px;
+  width: 30px;
+  line-height: 1;
+}

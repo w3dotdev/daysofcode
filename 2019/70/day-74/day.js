@@ -1,3 +1,5 @@
+// Chart.js - Simple yet flexible JavaScript charting for designers & developers
+// https://www.chartjs.org/
 const $myChart1 = document.querySelector('[data-js="chart1"]');
 const $myChart2 = document.querySelector('[data-js="chart2"]').getContext('2d');
 const $myChart3 = document.querySelector('[data-js="chart3"]');

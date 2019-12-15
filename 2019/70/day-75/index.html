@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 51</title>
+    <title>Day 75</title>
     <style>
       *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
       html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { margin: 60px auto; max-width: 600px; width: 100%; }
     </style>
     <link rel="stylesheet" type="text/css" href="./day.css">
   </head>
   <body>
     <div class="container">
+      <button data-js="add" class="add">Adicionar item</button>
+
+      <div data-js="main" class="main"></div>
+
+      <template data-js="template">
+        <div class="item" style="border-color: {{color}}">
+          <p>{{ num }}º</p>
+          <button data-js="delete" class="del">X</button>
+        </div>
+      </template>
     </div>
+    <script src="./node_modules/mustache/mustache.min.js"></script>
     <script src="./day.js"></script>
   </body>
 </html>

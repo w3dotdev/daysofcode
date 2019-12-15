@@ -3,9 +3,9 @@
 ::-webkit-scrollbar-thumb:hover { background-color: rgba(0, 0, 0, 0.3); }
 
 .content { background-color: #06050e; margin-left: 290px; position: relative; transition: 0.3s; }
-.navBar { background-color: #131023; height: 50px; width:100%; }
+.navbar { background-color: #131023; height: 50px; width:100%; }
 
-.sideBar {
+.sidebar {
   height: 100%;
   background-color: #18171d;
   color: #fff;
