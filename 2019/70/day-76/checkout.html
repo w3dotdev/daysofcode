@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 76</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day.css">
+  </head>
+  <body>
+    <div class="container" data-js="shop">
+      <header class="header">
+        <h1 class="title">Nerd Calistênico <span class="tagline">vendendo ideias desde 1986</h1>
+      </header>
+      <div class="content">
+        <h1 class="subtitle">Checkout</h1>
+        <table data-js="checkoutCart" class="shoppingCart">
+          <thead>
+            <tr>
+              <th scope="col">Item</th><th scope="col">Quantidade</th><th scope="col">Preço</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="pricing">
+          <p class="shipping"><strong>Envio</strong>: <span data-js="sshipping"></span></p>
+          <p class="subTotal"><strong>Total</strong>: <span data-js="stotal"></span></p>
+       </div>
+
+       <form action="order.html" method="post" data-js="checkoutOrderForm" class="checkoutForm">
+         <h2>Detalhes</h2>
+          <div class="checkoutForm-grid">
+            <div class="checkoutForm-gridItem">
+              <fieldset class="checkoutForm-fieldset" data-js="fieldsetBilling">
+                <legend class="checkoutForm-legend">Informações de cobrança</legend>
+                <p>
+                  <label class="checkoutForm-label" for="name">Nome</label>
+                  <input type="text" class="checkoutForm-field" name="name" data-js="name" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="email">Email</label>
+                  <input type="text" class="checkoutForm-field" name="email" data-js="email" data-type="expression" data-message="Email inválido" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="city">Cidade</label>
+                  <input type="text" class="checkoutForm-field" name="city" data-js="city" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="address">Endereço</label>
+                  <input type="text" class="checkoutForm-field" name="address" data-js="address" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="zip">CEP</label>
+                  <input type="text" class="checkoutForm-field" name="zip" data-js="zip" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="country">País</label>
+                  <select class="checkoutForm-select" name="country" data-js="country" data-type="string" data-message="Campo obrigatório">
+                    <option value="">Selecione</option>
+                    <option value="BR">Brasil</option>
+                    <option value="US">USA</option>
+                  </select>
+                </p>
+              </fieldset>
+            </div>
+            <div class="checkoutForm-gridItem">
+              <div class="shippingSame">O mesmo de cobrança <input type="checkbox" data-js="sameAsBilling" value=""/></div>
+              <fieldset class="checkoutForm-fieldset" data-js="fieldsetShipping">
+                <legend class="checkoutForm-legend">Informações de entrega</legend>
+                <p>
+                  <label class="checkoutForm-label" for="sname">Nome</label>
+                  <input type="text" class="checkoutForm-field" name="sname" data-js="sname" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="semail">Email</label>
+                  <input type="text" class="checkoutForm-field" name="semail" data-js="semail" data-type="expression" data-message="Email inválido" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="scity">Cidade</label>
+                  <input type="text" class="checkoutForm-field" name="scity" data-js="scity" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="saddress">Endereço</label>
+                  <input type="text" class="checkoutForm-field" name="saddress" data-js="saddress" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="szip">CEP</label>
+                  <input type="text" class="checkoutForm-field" name="szip" data-js="szip" data-type="string" data-message="Campo obrigatório" />
+                </p>
+                <p>
+                  <label class="checkoutForm-label" for="scountry">País</label>
+                  <select class="checkoutForm-select" name="scountry" data-js="scountry" data-type="string" data-message="Campo obrigatório">
+                    <option value="">Selecione</option>
+                    <option value="BR">Brasil</option>
+                    <option value="US">USA</option>
+                  </select>
+                </p>
+              </fieldset>
+            </div>
+          </div>
+          <p><button id="submit-order" class="submit">Submit</button></p>
+        </form>
+      </div>
+
+      <footer class="footer footer--static">Copyright &copy; Nerd Calistenico</footer>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./shop-helpers.js"></script>
+    <script src="./shop-dom.js"></script>
+    <script src="./day.js"></script>
+  </body>
+</html>

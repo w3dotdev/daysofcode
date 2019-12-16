@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day 76</title>
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./day.css">
+  </head>
+  <body>
+    <div class="container" data-js="shop">
+      <header class="header">
+        <h1 class="title">Nerd Calistênico <span class="tagline">vendendo ideias desde 1986</h1>
+      </header>
+      <div class="content">
+        <h1 class="subtitle">Seu Carrinho</h1>
+        <form class="shoppingCartForm" data-js="shoppingCartForm" action="cart.html" method="post">
+          <table data-js="shoppingCart" class="shoppingCart">
+            <thead>
+              <tr>
+                <th scope="col">Item</th><th scope="col">Quantidade</th><th scope="col" colspan="2">Preço</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <p class="subTotal">
+            <strong>Sub Total</strong>: <span data-js="stotal"></span>
+          </p>
+          <ul class="shoppingCart-actions" data-js="shoppingCartActions">
+            <li><button data-js="updateCart" class="submit">Atualizar Carrinho</button></li>
+            <li><button data-js="emptyCart" class="submit">Limpar o carrinho</button></li>
+            <li><a href="index.html" class="submit">Continue comprando</a></li>
+            <li><a href="checkout.html" class="submit">Ir para o Checkout</a></li>
+          </ul>
+        </form>
+      </div>
+      <footer class="footer">Copyright &copy; Nerd Calistenico</footer>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./shop-helpers.js"></script>
+    <script src="./shop-dom.js"></script>
+    <script src="./day.js"></script>
+  </body>
+</html>
