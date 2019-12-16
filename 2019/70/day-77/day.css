@@ -1,0 +1,9 @@
+.form-fieldset { padding: 10px; }
+.form-field { border-radius: 4px; height: 35px; margin-left: 10px; padding: 0 10px; }
+.form-action { background: #760d91;  border: none; border-radius: 4px; color: #fff; cursor: pointer; height: 35px; margin-left: 10px; padding: 4px 10px; }
+.form-action:active { background: #961eb4; }
+
+.description { margin: 20px 0; }
+.description p { font-size: 1.4rem; margin-bottom: 10px; }
+
+.result { background: red; color: #fff; }
