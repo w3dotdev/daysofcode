@@ -11,13 +11,58 @@
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { display: flex; flex-direction: row; flex-flow: wrap row; margin: 60px auto; max-width: 600px; width: 100%; }
     </style>
     <link rel="stylesheet" type="text/css" href="./day.css">
   </head>
   <body>
     <div class="container">
+      <section class="section edit">
+        <form method="post" data-js="form" class="form">
+          <input type="hidden" id="_rev" name="_rev" value="">
+          <input type="hidden" id="_id" name="_id" value="">
+
+          <p class="form-group">
+            <label class="form-label" for="title">Título:</label>
+            <input class="form-field" type="text" id="title" name="title" placeholder="Sem título" autocomplete="off">
+          </p>
+
+          <p class="form-group">
+            <label class="form-label" for="note">Nota:</label class="form-label">
+            <textarea class="form-field form-field--textarea" id="note" name="note" placeholder="Adicione uma nota" required></textarea>
+          </p>
+
+          <p>
+            <button class="button" type="reset">Resetar</button>
+            <button class="button button--delete" type="button" data-js="delete" disabled>Deletar</button class="button">
+            <button class="button" type="submit">Salvar</button>
+          </p>
+        </form>
+      </section>
+
+      <section class="section search">
+        <form method="get" data-js="searchForm" class="search-form">
+          <p>
+            <input type="search" data-js="query" name="q" autocomplete="off">
+            <button class="button" type="submit">Buscar</button class="button">
+          </p>
+        </form>
+
+        <h2>Notas</h2>
+
+        <table data-js="list" class="search-list">
+          <thead>
+            <tr>
+              <th>Título</th>
+              <th>Criado em</th>
+              <th>Atualizado em</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
     </div>
+    <script src="./node_modules/pouchdb/dist/pouchdb.min.js"></script>
     <script src="./day.js"></script>
   </body>
 </html>

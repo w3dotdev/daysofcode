@@ -101,7 +101,7 @@
 |Day 76 | <img src="thumbnails/day-76.jpg" width="100"> | [JQuery](./70/day-76/) | `html` `css` `js`
 |Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | [Dojo Toolkit](./70/day-77/) | `html` `css` `js`
 |Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | [Ext.js](./70/day-78/) | `html` `css` `js`
-|Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | TaffyDB (./70/day-79/) |
+|Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | [PouchDB](./70/day-79/) | `html` `css` `js`
 |Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | MeteorJS (./70/day-80/) |
 |Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | Polymer (./80/day-81/) |
 |Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | Gatsby (./80/day-82/) |

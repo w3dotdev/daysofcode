@@ -1,0 +1,19 @@
+.section { background: #fff; padding: 10px; width: 50%; }
+
+.edit { border-radius: 4px 0 0 4px; }
+.form-group { margin-bottom: 10px; }
+.form-label { color: #333; display: block; font-size: 1.2rem; }
+.form-field { border: 1px solid #ccc; border-radius: 4px; font-size: 1.2rem; height: 35px; padding: 0 10px; width: 100%; }
+.form-field--textarea { height: 100px; padding: 10px; }
+
+.search { border-radius: 0 4px 4px 0; }
+.search-form { text-align: right; }
+.search-list { color: #333; margin: 10px 0; width: 100%; }
+.search-list th { text-align: left; }
+.search-list td { font-size: 1rem; text-align: left; }
+.search-list a { color: #8117a1; }
+
+.button { background: #8117a1; border: none; border-radius: 4px; color: #fff; height: 35px; padding: 0 10px; }
+.button--delete { background: #f00; }
+
+[disabled] { background: #ccc; color: #333; cursor: no-drop; }
