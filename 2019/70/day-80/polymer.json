@@ -1,0 +1,12 @@
+{
+  "npm": true,
+  "moduleResolution": "node",
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  }
+}

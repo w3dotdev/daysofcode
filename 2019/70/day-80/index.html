@@ -11,13 +11,14 @@
       * { margin: 0; padding: 0; list-style: none; outline: none; }
       body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
 
-      .container { margin: 60px auto; max-width: 992px; width: 100%; }
+      .container { margin: 60px auto; max-width: 600px; position: relative; width: 100%; }
     </style>
-    <link rel="stylesheet" type="text/css" href="./day.css">
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" src="day.js"></script>
   </head>
   <body>
     <div class="container">
+      <nerd-calistenico></nerd-calistenico>
     </div>
-    <script src="./day.js"></script>
   </body>
 </html>

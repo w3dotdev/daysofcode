@@ -102,17 +102,17 @@
 |Day 77 | <img src="thumbnails/day-77.jpg" width="100"> | [Dojo Toolkit](./70/day-77/) | `html` `css` `js`
 |Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | [Ext.js](./70/day-78/) | `html` `css` `js`
 |Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | [PouchDB](./70/day-79/) | `html` `css` `js`
-|Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | MeteorJS (./70/day-80/) |
-|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | Polymer (./80/day-81/) |
+|Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | [Polymer](./70/day-80/) | `html` `css` `js`
+|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | Aurelia (./80/day-81/) |
 |Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | Gatsby (./80/day-82/) |
-|Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | Aurelia (./80/day-83/) |
+|Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | MeteorJS (./80/day-83/) |
 |Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | Angular (./80/day-84/) |
 |Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | Vue (./80/day-85/) |
 |Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | React (./80/day-86/) |
 |Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | GraphQl (./80/day-87/) |
-|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning 1 (./80/day-88/) |
-|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning 2 (./80/day-89/) |
-|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning 3 (./80/day-90/) |
+|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning: Brain.js (./80/day-88/) |
+|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning: Tensorflow.js (./80/day-89/) |
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning: ML.js (./80/day-90/) |
 
 ### 
 
