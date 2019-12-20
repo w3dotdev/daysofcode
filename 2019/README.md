@@ -103,7 +103,7 @@
 |Day 78 | <img src="thumbnails/day-78.jpg" width="100"> | [Ext.js](./70/day-78/) | `html` `css` `js`
 |Day 79 | <img src="thumbnails/day-79.jpg" width="100"> | [PouchDB](./70/day-79/) | `html` `css` `js`
 |Day 80 | <img src="thumbnails/day-80.jpg" width="100"> | [Polymer](./70/day-80/) | `html` `css` `js`
-|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | Aurelia (./80/day-81/) |
+|Day 81 | <img src="thumbnails/day-81.jpg" width="100"> | [Aurelia](./80/day-81/) | `html` `css` `js`
 |Day 82 | <img src="thumbnails/day-82.jpg" width="100"> | Gatsby (./80/day-82/) |
 |Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | MeteorJS (./80/day-83/) |
 |Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | Angular (./80/day-84/) |

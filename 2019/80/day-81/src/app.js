@@ -5,5 +5,9 @@
 //
 // npm install -g aurelia-cli
 // au new
-// au build --env prod
+// (ESNext)
+// au run --open
 //
+export class App {
+  message = 'Hello World!';
+}
