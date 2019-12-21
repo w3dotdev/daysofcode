@@ -1,0 +1,19 @@
+.content { display: flex; flex-direction: row; width: 100%; }
+.content > .au-target { width: 50%; }
+
+.header { background: #4c0a79; margin-bottom: 20px; padding: 10px; }
+.title { margin: 10px; }
+
+.subtitle { background: #333; padding: 10px; }
+
+.list { padding: 10px; }
+.item { margin-top: 10px;}
+.item:first-child { margin-top: 0; }
+.link { color: #fff; font-size: 1.2rem; }
+.active .link { color: #fbfd8c; }
+
+.form { background: #fff; border-radius: 4px; margin-top: 10px; padding: 10px; }
+.form-group { margin-bottom: 10px; }
+.form-label { color: #333; display: block; font-size: 1.2rem; }
+.form-field { border: 1px solid #ccc; border-radius: 4px; font-size: 1.2rem; height: 35px; padding: 0 10px; width: 100%; }
+.form-submit { background: #8117a1; border: none; border-radius: 4px; color: #fff; cursor: pointer; height: 35px; padding: 0 10px; }

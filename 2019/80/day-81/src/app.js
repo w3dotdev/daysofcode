@@ -8,6 +8,21 @@
 // (ESNext)
 // au run --open
 //
+import { inject, PLATFORM } from 'aurelia-framework';
+import { WebAPI } from './api/index';
+
+@inject(WebAPI)
 export class App {
-  message = 'Hello World!';
+  constructor(api) {
+    this.api = api;
+  }
+  configureRouter(config, router) {
+    config.title = 'Nerd Calistênico';
+    config.map([
+      { route: '', moduleId: PLATFORM.moduleName('users/no-selection'), title: 'Editar usuário'},
+      { route: 'users/:id', moduleId: PLATFORM.moduleName('users/detail'), name: 'users' }
+    ]);
+
+    this.router = router;
+  }
 }

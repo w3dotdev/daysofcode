@@ -1,3 +1,15 @@
 <template>
-  <h1>${message}</h1>
+  <require from="./day.css"></require>
+  <require from="./users/list"></require>
+
+  <div class="container">
+    <header class="header">
+      <h1 class="title">Editar Usuários</h1>
+    </header>
+
+    <div class="content">
+      <user-list></user-list>
+      <router-view></router-view>
+    </div>
+  </div>
 </template>

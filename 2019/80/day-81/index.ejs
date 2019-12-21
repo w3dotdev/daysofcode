@@ -5,7 +5,14 @@
     <title><%- htmlWebpackPlugin.options.metadata.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="<%- htmlWebpackPlugin.options.metadata.baseUrl %>">
-    <!-- imported CSS are concatenated and added automatically -->
+    <style>
+      *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing:border-box; }
+      html { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size: 62.5%; }
+      * { margin: 0; padding: 0; list-style: none; outline: none; }
+      body { background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+
+      .container { margin: 60px auto; max-width: 600px; position: relative; width: 100%; }
+    </style>
   </head>
   <body aurelia-app="main">
   </body>

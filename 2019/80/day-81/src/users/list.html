@@ -1,0 +1,11 @@
+<template>
+  <h3 class="subtitle">.</h3>
+
+  <ul class="list">
+    <li repeat.for="user of users" class="item ${user.id === $parent.selectedId ? 'active' : ''}">
+      <a class="link" route-href="route: users; params.bind: {id:user.id}" click.delegate="$parent.select(user)">
+        <strong>${user.name}</strong>
+      </a>
+    </li>
+  </ul>
+</template>
