@@ -1,0 +1,19 @@
+// TITLE
+.title { background: #55127c; color: #fff; margin-bottom: 1rem; padding: 1rem; }
+// FORM
+.form { display: flex; }
+.form-field { border: none; height: 3.5rem; flex-grow: 1; padding: 0 1rem; }
+.form-submit { background: #55127c; border: none; color: #fff; height: 3.5rem; padding: 0 1rem; }
+// ITEM
+.item { background: #6b6b6b; border: 1px solid #333; margin-bottom: 1.3rem; padding: 1.3rem; }
+.item--position1 { background: #daa520; }
+.item--position2 { background: #bec2cb; }
+.item--position3 { background: #cd7f32; }
+.item-message { font-size: 1.2rem; text-align: center; }
+// PLAYER
+.player { align-items: center; color: #fff; display: flex; justify-content: space-between; }
+.player-name { color: #000; font-size: 1.8rem; }
+.player-stats { color: #fffee9; font-size: 1.2rem; text-shadow: 0 1px 2px #333; }
+.player-button { background: rgba(0,0,0,0.4); border: none; border-radius: 4px; color: #fff; cursor: pointer; font-size: 1.8rem; font-weight: 700; height: 3rem; margin-left: 1rem; width: 3rem; }
+.player-button:active { background: #c788ee; }
+.player-button:first-child { margin-left: 0; }
