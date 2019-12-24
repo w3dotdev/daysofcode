@@ -1,10 +1,3 @@
-// Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.
-// https://angular.io/
-//
-// npm install -g @angular/cli
-// ng new day84
-// ng serve
-//
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

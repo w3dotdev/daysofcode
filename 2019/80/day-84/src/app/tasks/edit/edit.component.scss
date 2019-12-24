@@ -1,0 +1,8 @@
+// FORM
+.form { display: flex; margin: 10px; }
+.form-field { border: none; height: 3.5rem; flex-grow: 1; padding: 0 1rem; }
+.form-submit { background: #55127c; border: none; color: #fff; height: 3.5rem; padding: 0 1rem; }
+
+.form-error { color: #f00; }
+
+.link { color: #c300ff; float: right; font-size: 1.4rem; text-decoration: none; }

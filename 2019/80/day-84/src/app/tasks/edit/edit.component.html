@@ -1,0 +1,11 @@
+<h1>Editar <a class="link" [routerLink]="['/tarefas']" routerLinkActive="router-link-active" >Voltar</a></h1>
+
+<form class="form" #taskForm="ngForm">
+  <input type="text" class="form-field" name="name" [(ngModel)]="task.name" #name="ngModel" minlength="3" autocomplete="off" required>
+  <input type="submit" class="form-submit" (click)="update()" value="Atualizar">
+</form>
+
+<div *ngIf="name.errors && (name.dirty || name.touched)" class="form-error">
+  <div [hidden]="!name.errors.required">Campo obrigatório</div>
+  <div [hidden]="!name.errors.minlength">A tarefa deve conter ao menos 3 caracteres.</div>
+</div>

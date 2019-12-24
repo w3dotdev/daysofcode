@@ -1,0 +1,22 @@
+<h1 class="title">Tarefas</h1>
+
+<p style="text-align: right;"><a [routerLink]="['/tarefas/adicionar']" routerLinkActive="router-link-active" class="button">+ Novo</a></p>
+<table class="table">
+	<tr>
+		<th>TO DO</th>
+		<th>DONE</th>
+		<th></th>
+	</tr>
+	<tr *ngFor="let task of tasks" [class.success]="task.completed">
+		<td style="width: 350px;" [completed]="task.completed">{{ task.name }}</td>
+		<td>
+			<input type="checkbox" [value]="task.id" [checked]="task.completed" (click)="changeStatus(task)">
+		</td>
+		<td>
+			<a [routerLink]="['/tarefas/editar', task.id]" routerLinkActive="router-link-active" class="button">Editar</a>
+			<a (click)="remove($event, task)" class="button">Remover</a>
+		</td>
+	</tr>
+</table>
+
+<p *ngIf="tasks.length == 0">Sem tarefas</p>
