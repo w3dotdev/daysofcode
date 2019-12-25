@@ -1,32 +1,37 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="container">
+    <header class="header">
+      <h1>Nerd Calistênico --- <span @click="logout"><router-link v-if="this.$store.state.Auth != ''"  to="/" active-class exact class="link">Sair</router-link></span></h1>
+    </header>
+
+    <div class="content">
+      <router-view></router-view>
     </div>
-    <router-view />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+export default {
+  data(){
+    return{
+      auth:this.$store.state.Auth
     }
-  }
+  },
+  methods:{
+   logout:function(){
+     this.$router.push('/');
+     localStorage.removeItem('user');
+     localStorage.removeItem('authUser');
+     this.$store.state.authUser = '';
+     this.$store.state.Auth ='';
+   }
+},
+  name: 'app',
+  components: {}
 }
+</script>
+
+<style>
+  .header { background: #4c0a79; color: #fff; margin-bottom: 20px; padding: 10px; }
+  .link { color: #fff7af;  text-decoration: none; }
 </style>
