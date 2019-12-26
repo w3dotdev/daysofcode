@@ -108,7 +108,7 @@
 |Day 83 | <img src="thumbnails/day-83.jpg" width="100"> | [Meteor](./80/day-83/) | `html` `css` `js`
 |Day 84 | <img src="thumbnails/day-84.jpg" width="100"> | [Angular](./80/day-84/) | `html` `css` `js`
 |Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | [Vue](./80/day-85/) | `html` `css` `js`
-|Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | React (./80/day-86/) | `html` `css` `js`
+|Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | [React](./80/day-86/) | `html` `css` `js`
 |Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | GraphQl (./80/day-87/) |
 |Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning: Brain.js (./80/day-88/) |
 |Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning: Tensorflow.js (./80/day-89/) |
