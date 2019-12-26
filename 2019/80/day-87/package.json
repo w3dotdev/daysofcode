@@ -1,0 +1,28 @@
+{
+  "name": "day-87",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "3.7.2",
+    "express": "4.17.1",
+    "express-graphql": "0.9.0",
+    "graphql": "14.5.8",
+    "knex": "0.20.4",
+    "ramda": "0.26.1",
+    "shortid": "2.2.15",
+    "sqlite3": "4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/polyfill": "7.7.0",
+    "@babel/preset-env": "7.7.7",
+    "@babel/register": "7.7.7"
+  }
+}
