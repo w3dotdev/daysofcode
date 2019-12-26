@@ -1,4 +1,4 @@
-//
+// Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 // https://vuejs.org/
 //
 // npm install -g @vue/cli
