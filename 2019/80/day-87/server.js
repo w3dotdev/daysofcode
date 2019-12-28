@@ -1,6 +1,9 @@
 // GraphQL.js - The JavaScript reference implementation for GraphQL, a query language for APIs created by Facebook.
 // https://graphql.org/
 //
+// npm start
+// http://localhost:3000/graphql
+//
 import express from 'express';
 import graphqlHTTP from 'express-graphql';
 import Schema from './schema';

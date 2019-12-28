@@ -1,0 +1,16 @@
+{
+  "name": "day-88",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node day.js",
+    "tweets": "node tweets.js"
+  },
+  "dependencies": {
+    "brain.js": "2.0.0-alpha.11",
+    "request": "2.88.0"
+  }
+}

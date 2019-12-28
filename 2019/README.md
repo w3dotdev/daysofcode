@@ -110,9 +110,9 @@
 |Day 85 | <img src="thumbnails/day-85.jpg" width="100"> | [Vue](./80/day-85/) | `html` `css` `js`
 |Day 86 | <img src="thumbnails/day-86.jpg" width="100"> | [React](./80/day-86/) | `html` `css` `js`
 |Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | [GraphQL](./80/day-87/) | `js`
-|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | Machine Learning: Brain.js (./80/day-88/) |
-|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning: Tensorflow.js (./80/day-89/) |
-|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning: ML.js (./80/day-90/) |
+|Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | [Machine Learning in JS: Brain.js](./80/day-88/) |
+|Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | Machine Learning in JS: Tensorflow.js (./80/day-89/) |
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning in JS: ML.js (./80/day-90/) |
 
 ### 
 
