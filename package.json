@@ -18,5 +18,8 @@
   "homepage": "https://github.com/hemersonvianna/daysofcode#readme",
   "devDependencies": {
     "jasmine": "3.5.0"
+  },
+  "dependencies": {
+    "ml": "5.0.0"
   }
 }

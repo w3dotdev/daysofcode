@@ -1,0 +1,16 @@
+{
+  "name": "day-90",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node day.js"
+  },
+  "dependencies": {
+    "csvtojson": "2.0.10",
+    "ml-knn": "3.0.0",
+    "prompt": "1.0.0"
+  }
+}

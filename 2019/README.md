@@ -112,7 +112,7 @@
 |Day 87 | <img src="thumbnails/day-87.jpg" width="100"> | [GraphQL](./80/day-87/) | `js`
 |Day 88 | <img src="thumbnails/day-88.jpg" width="100"> | [Machine Learning with JS: Brain.js](./80/day-88/) | `js`
 |Day 89 | <img src="thumbnails/day-89.jpg" width="100"> | [Machine Learning with JS: Tensorflow.js](./80/day-89/) | `js`
-|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | Machine Learning with JS: ML.js (./80/day-90/) | `js`
+|Day 90 | <img src="thumbnails/day-90.jpg" width="100"> | [Machine Learning with JS: ML.js](./80/day-90/) | `js`
 
 ### TypeScript & React Native
 
