@@ -1,0 +1,17 @@
+{
+  "name": "day-89",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day.js",
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node day.js gato.jpg"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "2.0.4",
+    "@tensorflow/tfjs": "1.5.1",
+    "@tensorflow/tfjs-node": "1.5.1",
+    "jpeg-js": "0.3.6"
+  }
+}

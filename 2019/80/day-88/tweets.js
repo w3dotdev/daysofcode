@@ -13,10 +13,10 @@ const callback = (error, response, body) => {
   if (!error && response.statusCode == 200) {
     const info = JSON.parse(body);
     info.forEach(tweet => {
-        const t = { input: tweet.text, output: { evaristocosta: 1 } };
-        tweets.push(t);
+      const t = { input: tweet.text, output: { evaristocosta: 1 } };
+      tweets.push(t);
 
-        console.log(tweets);
+      console.log(tweets);
     });
   }
 }
