@@ -55,7 +55,7 @@
 |Day 35 | <img src="thumbnails/day-35.jpg" width="100"> | [Playing with array - Push, Pop, Unshift and Shift](./30/day-35/) | `html` `css` `js`
 |Day 36 | <img src="thumbnails/day-36.jpg" width="100"> | [Webstorage: sessionStorage and LocalStorage](./30/day-36/) | `html` `css` `js`
 |Day 37 | <img src="thumbnails/day-37.jpg" width="100"> | [Playing with array - Splice, Slice, ToString and Join](./30/day-37/) | `html` `css` `js`
-|Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [Pagination](./30/day-38/) | `html` `css` `js`
+|Day 38 | <img src="thumbnails/day-38.jpg" width="100"> | [Simple Pagination](./30/day-38/) | `html` `css` `js`
 |Day 39 | <img src="thumbnails/day-39.jpg" width="100"> | [Playing with array - Concat, Sort, Reverse and ForEach](./30/day-39/) | `html` `css` `js`
 |Day 40 | <img src="thumbnails/day-40.jpg" width="100"> | [Detect and validate credit card numbers](./30/day-40/) | `html` `css` `js`
 |Day 41 | <img src="thumbnails/day-41.jpg" width="100"> | [Playing with array - Includes, IndexOf, LastIndexOf, Find and FindIndex](./40/day-41/) | `html` `css` `js`
