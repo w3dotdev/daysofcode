@@ -119,8 +119,8 @@
 || Preview |||
 |:-------------- |:--------------:| :--------------| :--------------|
 
-|Day 91 | <img src="thumbnails/day-91.jpg" width="100"> | [TypeScript](./90/day-91/) |
-|Day 92 | <img src="thumbnails/day-92.jpg" width="100"> | React Native (./90/day-92/) |
+|Day 91 | <img src="thumbnails/day-91.jpg" width="100"> | [TypeScript](./90/day-91/) | `js`
+|Day 92 | <img src="thumbnails/day-92.jpg" width="100"> | [React Native](./90/day-92/) | `js`
 
 ## Contributing
 
