@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hemersonvianna/daysofcode.git"
+    "url": "git+https://github.com/w3dotdev/daysofcode.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hemersonvianna/daysofcode/issues"
+    "url": "https://github.com/w3dotdev/daysofcode/issues"
   },
-  "homepage": "https://github.com/hemersonvianna/daysofcode#readme",
+  "homepage": "https://github.com/w3dotdev/daysofcode#readme",
   "devDependencies": {
     "jasmine": "3.5.0"
   },
