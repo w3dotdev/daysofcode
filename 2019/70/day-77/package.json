@@ -9,6 +9,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "dojo": "1.16.0"
+    "dojo": "1.16.2"
   }
 }
