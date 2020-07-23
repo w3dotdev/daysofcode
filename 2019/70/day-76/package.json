@@ -6,6 +6,6 @@
   "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (https://nerdcalistenico.com.br)",
   "license": "MIT",
   "dependencies": {
-    "jquery": "3.4.1"
+    "jquery": "3.5.0"
   }
 }
